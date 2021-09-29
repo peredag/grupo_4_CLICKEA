@@ -23,9 +23,9 @@ Somos un equipo dinámico atentos las 24hs a las cambiantes exigencias y posibil
 
 
 ## Integrantes: 
-- Chalco Jonathan
+- Challco Jonathan
 
-    Hola soy...
+    Soy Jonathan Challco, tengo 24 años; Actualmente trabajo con las aplicaciones de transporte y curso Diseño de web en la Fundacion Formar con la idea que en un futuro pueda especializarme en ciberseguridad, mis hobbies es hacer musica.
 
 - Espinoza Estefania
 
