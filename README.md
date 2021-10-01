@@ -40,5 +40,5 @@ Somos un equipo dinámico atentos las 24hs a las cambiantes exigencias y posibil
 
 - Yañez Ezequiel
 
- Hola soy...
+ Hola soy Ezequiel Yañez, tengo 24 años y soy un aficionado de la música, del fútbol, de la cocina y de disfrutar los buenos momentos. Mi sueño es poder vivir viajando y trabajando de programador, o en su defecto poder mudarme a la Patagonia con el mismo fin. 
 
