@@ -29,8 +29,7 @@ Somos un equipo dinámico atentos las 24hs a las cambiantes exigencias y posibil
 
 - Espinoza Estefania
 
-     Hola soy...
-    
+    Soy Estefani Espinoza, cumplo 25 años, actualmente estudio con Fundación Formar. Me gusta un poco de todo, mi hobby es hacer deporte.
 - Pereda Greta
 
  Hola soy ...
