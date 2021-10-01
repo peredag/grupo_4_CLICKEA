@@ -1,4 +1,4 @@
-# noq.ar
+# Clickea
 
 ### Temática del Market Place:
 
@@ -30,9 +30,13 @@ Somos un equipo dinámico atentos las 24hs a las cambiantes exigencias y posibil
 - Espinoza Estefania
 
     Soy Estefani Espinoza, cumplo 25 años, actualmente estudio con Fundación Formar. Me gusta un poco de todo, mi hobby es Leer.
+
 - Pereda Greta
 
- Hola soy ...
+ Hola soy Greta, 35 años, cordobesa, runner y mamá.
+ Hace varios años trabajo en seguridad electrónica, en el último tiempo comencé a interesarme en robotica, luego en la programación .
+ Actualmente estoy iniciando Analista de sistemas en FAMAF y Desarrollo Web, en un futuro me gustaria especializarme en inteligencia artificial, o en seguridad informática.
+ Espero en este proyecto junto a mis compañeros lograr un resultado que nos enorgullezca y nos facilite tanto oportunidades laborales como nuevas capacitaciones (bootcamps en empresas líderes)
 
 - Yañez Ezequiel
 
