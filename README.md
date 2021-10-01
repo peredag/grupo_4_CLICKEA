@@ -33,12 +33,12 @@ Somos un equipo dinámico atentos las 24hs a las cambiantes exigencias y posibil
 
 - Pereda Greta
 
- Hola soy Greta, 35 años, cordobesa, runner y mamá.
- Hace varios años trabajo en seguridad electrónica, en el último tiempo comencé a interesarme en robotica, luego en la programación .
- Actualmente estoy iniciando Analista de sistemas en FAMAF y Desarrollo Web, en un futuro me gustaria especializarme en inteligencia artificial, o en seguridad informática.
- Espero en este proyecto junto a mis compañeros lograr un resultado que nos enorgullezca y nos facilite tanto oportunidades laborales como nuevas capacitaciones (bootcamps en empresas líderes)
+    Hola soy Greta, 35 años, cordobesa, runner y mamá.
+    Hace varios años trabajo en seguridad electrónica, en el último tiempo comencé a interesarme en robotica, luego en la programación .
+    Actualmente estoy iniciando Analista de sistemas en FAMAF y Desarrollo Web, en un futuro me gustaria especializarme en inteligencia artificial, o en seguridad informática.
+    Espero en este proyecto junto a mis compañeros lograr un resultado que nos enorgullezca y nos facilite tanto oportunidades laborales como nuevas capacitaciones (bootcamps en empresas líderes).
 
 - Yañez Ezequiel
 
- Hola soy Ezequiel Yañez, tengo 24 años y soy un aficionado de la música, del fútbol, de la cocina y de disfrutar los buenos momentos. Mi sueño es poder vivir viajando y trabajando de programador, o en su defecto poder mudarme a la Patagonia con el mismo fin. 
+    Hola soy Ezequiel Yañez, tengo 24 años y soy un aficionado de la música, del fútbol, de la cocina y de disfrutar los buenos momentos. Mi sueño es poder vivir viajando y trabajando de programador, o en su defecto poder mudarme a la Patagonia con el mismo fin. 
 
