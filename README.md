@@ -2,18 +2,23 @@
 
 ### Temática del Market Place:
 
-- Los productos que ofreceremos serán de diversos rubros.  
+- Los productos que ofreceremos serán de diversos rubros, facilitando la Compra de nuestros usuarios.
 
-- Nuestra audiencia objetivo, son personas mayores de 18 años. 
+- Nuestros productos son para todas las edades, pero para comprar en nuestro sitio tenes que ser mayor de edad.(Ley 26.579 Art. 4º).
+
+- Con una interfaz simple y dinámica para nuestros usuarios, buscamos generarles una agradable experiencia al momento de comprar.
 
 ### Inspiración de referentes en el mercado:
 
-https://www.amazon.com/ 
+https://www.tiendamia.com/
 
-https://www.tiendamia.com/ 
+https://www.mercadolibre.com.ar/
 
-https://www.mercadolibre.com.ar/    
+https://www.falabella.com.ar/
 
+https://redragon.es/
+
+https://www.alibaba.com/
 
 ### Descripción del equipo
 
