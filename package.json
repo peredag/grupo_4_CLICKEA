@@ -1,0 +1,23 @@
+{
+  "name": "grupo_4_CLICKEA",
+  "version": "1.0.0",
+  "description": "- Los productos que ofreceremos serán de diversos rubros, facilitando la Compra de nuestros usuarios.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gretapereda/grupo_4_CLICKEA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gretapereda/grupo_4_CLICKEA/issues"
+  },
+  "homepage": "https://github.com/gretapereda/grupo_4_CLICKEA#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
