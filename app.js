@@ -20,4 +20,4 @@ app.get('/login', function(req, res) {res.sendFile(path.join(__dirname, "views/l
 
 
 
-app.listen(PORT, () => console.log(`servidor levantado en el puerto ${PORT} http://localhost:${PORT}`))
+app.listen(PORT, () => console.log(`Servidor levantado en el puerto ${PORT} http://localhost:${PORT}`))
