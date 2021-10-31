@@ -1,3 +1,7 @@
+/*BASE MOBILE FIRST*/
+
+/*MOBILE*/
+
 html{
     width: 320px;
 
@@ -21,6 +25,8 @@ header.barra-navegacion{
     border-bottom:1px solid black;
     background-color:rgb(63,136,197);
 }
+
+/*"header"*/
 .carro{
     height: 30px;
     text-align: center;
@@ -30,6 +36,7 @@ header.barra-navegacion{
     color: white;
 }
 
+/*foto del producto*/
 .miniatura1{
     padding: 3px;
     margin-top: 10px;
@@ -40,8 +47,25 @@ header.barra-navegacion{
 
 }
 
+/*Recuadro de descripción de producto*/
+.nombre{
+    margin-left: 160px;
+    margin-right: 0px;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: lightgray 1px 1px 1px;
+    background-color: rgb(252, 253, 243)
+
+}
+.backgroundc{
+    background-color: rgb(252, 253, 243)
+}
 p.mas{
-    background-color: rgb(153, 255, 0);
+    background-color:rgb(211, 241, 166);
     display:flexbox;
     width: 20px;
     border: 1px solid lightgray;
@@ -52,7 +76,7 @@ p.mas{
     
 }
 p.menos{
-    background-color:rgb(255, 66, 66);
+    background-color:rgb(216, 141, 141);
     display:flexbox;
     width: 20px;
     border: 1px solid lightgray;
@@ -76,19 +100,8 @@ p.cantidad{
     font-size: 1;
 
 }
-.nombre{
-    margin-left: 160px;
-    margin-right: 0px;
-    margin-top: 10px;
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    border: 1px solid black;
-    text-align: center;
-    box-shadow: lightgray 1px 1px 1px;
-    background-color:F6F7EB;
 
-}
+/*Estrellas*/
 
 .checked {
   color: orange;
@@ -97,7 +110,7 @@ p.cantidad{
 
 .estrellas{
     width: 100%;
-    margin-top: 15px;
+    margin-top: 35px;
     font-size: 20px;
     margin-left: 20px;
     justify-content: left;
@@ -111,6 +124,17 @@ span.fa.fa-star{
     margin-left: 10px;
     width:12px;
   
+}
+/*Medios de pago*/
+.palabra-medios{
+    font-weight:bolder;
+    display: flex;
+    padding-top: 25px;
+    margin-left: 10px;
+}
+
+.divisiondelosmedios{
+    margin-top: 60px;
 }
 
 nav.mercadopago{
@@ -170,13 +194,20 @@ margin-top: -83px;
 
 .division{
 position: absolute;
-margin-top: 120px;
+margin-top: 130px;
 border-bottom:2px solid lightgray;
 width: 100%;
 margin: 0, 0, 0, 0;
 
 }
 
+
+/*Carrito Actual */
+
+
+.carrito-actual{
+padding-top: 20px;
+}
 .carrillototal{
     margin-top: 130px;
     margin-left: 10px;
@@ -184,6 +215,7 @@ margin: 0, 0, 0, 0;
 }
 
 .lista1 li{
+    background-color: rgb(252, 253, 243);
     border:1px solid lightgray;
     margin-left: -40px;
     width: 100%;
@@ -193,7 +225,7 @@ margin: 0, 0, 0, 0;
 }
 
 p.mas1{
-    background-color: rgb(153, 255, 0);
+    background-color: rgb(211, 241, 166);
     display:flexbox;
     width: 20px;
     border: 1px solid lightgray;
@@ -204,7 +236,7 @@ p.mas1{
     margin-top: -100px;
 }
 p.menos1{
-    background-color:rgb(255, 66, 66);
+    background-color:rgb(216, 141, 141);
     display:flexbox;
     width: 20px;
     border: 1px solid lightgray;
@@ -217,7 +249,7 @@ p.menos1{
 }
 
 p.mas2{
-    background-color: rgb(153, 255, 0);
+    background-color: rgb(211, 241, 166);
     display:flexbox;
     width: 20px;
     border: 1px solid lightgray;
@@ -228,7 +260,7 @@ p.mas2{
     margin-top: -70px;
 }
 p.menos2{
-    background-color:rgb(255, 66, 66);
+    background-color:rgb(216, 141, 141);
     display:flexbox;
     width: 20px;
     border: 1px solid lightgray;
@@ -241,7 +273,7 @@ p.menos2{
 }
 
 p.mas3{
-    background-color: rgb(153, 255, 0);
+    background-color: rgb(211, 241, 166);
     display:flexbox;
     width: 20px;
     border: 1px solid lightgray;
@@ -252,7 +284,7 @@ p.mas3{
     margin-top: -40px;
 }
 p.menos3{
-    background-color:rgb(255, 66, 66);
+    background-color:rgb(216, 141, 141);
     display:flexbox;
     width: 20px;
     border: 1px solid lightgray;
@@ -311,6 +343,7 @@ margin-top: -40px;
 }
 
 .total{
+    background-color: rgb(252, 253, 243);
     border:1px solid lightgray;
     margin-left: 10px;
     height: 30px;
@@ -323,6 +356,7 @@ margin-top: -40px;
 
 }
 
+/*Boton comprar*/
 .botondecompra{
     border: 2px solid white;
     width: 100px;
@@ -333,6 +367,16 @@ margin-top: -40px;
     margin-left: 180px;
     padding: 5, 5, 5, 5;
 
+
 }
 
 
+/*Banner*/
+
+.banner1{
+    padding-top: 20px;
+}
+
+.banner2{
+    margin-top: -3.8px;
+}
