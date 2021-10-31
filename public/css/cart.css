@@ -1,0 +1,338 @@
+html{
+    width: 320px;
+
+}
+
+*{
+    width: 100%;
+    background-color: #F6F7EB;
+    box-sizing:border-box;
+}
+
+body{
+    width:100%;
+
+}
+
+header.barra-navegacion{
+    text-align: center;
+    display: flexbox;
+    width: 320px;
+    border-bottom:1px solid black;
+    background-color:rgb(63,136,197);
+}
+.carro{
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    background-color:rgb(63,136,197);
+    width: 100%;
+    color: white;
+}
+
+.miniatura1{
+    padding: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 140px;
+    height: 90px;
+    border: 1px solid lightgray;
+
+}
+
+p.mas{
+    background-color: rgb(153, 255, 0);
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    margin-left: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight:bolder;
+    
+}
+p.menos{
+    background-color:rgb(255, 66, 66);
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top:-36.5px;
+    text-align: center;
+    font-weight:bolder;
+}
+p.cantidad{
+    background-color:white;
+
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-top:-36.5px;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 1;
+
+}
+.nombre{
+    margin-left: 160px;
+    margin-right: 0px;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: lightgray 1px 1px 1px;
+    background-color:F6F7EB;
+
+}
+
+.checked {
+  color: orange;
+  width: 40px;
+}
+
+.estrellas{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 20px;
+    justify-content: left;
+    place-content:initial;
+    display:flex;
+    box-sizing: content-box;
+    
+}
+
+span.fa.fa-star{
+    margin-left: 10px;
+    width:12px;
+  
+}
+
+nav.mercadopago{
+    margin-left: -200px;
+    text-align: center;
+    align-content: center;
+}
+
+.mercadopa{
+width: 60px;
+text-align: center;
+}
+
+.check{
+    margin-left:-1px;
+}
+
+.visarda{
+    width: 50px;
+    text-align: center;
+    margin-left: -80px;
+    align-content: center;
+    margin-top: -66px;
+}
+
+.visardi{
+    margin-bottom: 10px;
+}
+
+.american{
+    margin-top: -74px;
+    margin-left: -50px;
+}
+.ame{
+    width: 40px;
+    margin-bottom: 10px;
+
+}
+#ameri{
+    margin-left: -1px;
+}
+.paypall{
+margin-left: 20px;
+margin-top: -83px;
+    
+}
+.peipal{
+    margin-left: 2px;
+    width: 50px;
+    margin-bottom: 8px;
+}
+
+.medios-de-pago{
+    margin-top: 20px;
+   
+}
+
+.division{
+position: absolute;
+margin-top: 120px;
+border-bottom:2px solid lightgray;
+width: 100%;
+margin: 0, 0, 0, 0;
+
+}
+
+.carrillototal{
+    margin-top: 130px;
+    margin-left: 10px;
+
+}
+
+.lista1 li{
+    border:1px solid lightgray;
+    margin-left: -40px;
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    list-style-type: none;
+}
+
+p.mas1{
+    background-color: rgb(153, 255, 0);
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    position: absolute;
+    text-align: center;
+    font-weight:bolder;
+    margin-left: 200px;
+    margin-top: -100px;
+}
+p.menos1{
+    background-color:rgb(255, 66, 66);
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    font-weight:bolder;
+    margin-left: 230px;
+    margin-top: -100px;
+}
+
+p.mas2{
+    background-color: rgb(153, 255, 0);
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    position: absolute;
+    text-align: center;
+    font-weight:bolder;
+    margin-left: 200px;
+    margin-top: -70px;
+}
+p.menos2{
+    background-color:rgb(255, 66, 66);
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    font-weight:bolder;
+    margin-left: 230px;
+    margin-top: -70px;
+}
+
+p.mas3{
+    background-color: rgb(153, 255, 0);
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    position: absolute;
+    text-align: center;
+    font-weight:bolder;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+p.menos3{
+    background-color:rgb(255, 66, 66);
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    font-weight:bolder;
+    margin-left: 230px;
+    margin-top: -40px;
+}
+
+p.cantidad1{
+    background-color:white;
+
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+position: absolute;
+margin-left: 255px;
+margin-top: -100px;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 1;
+
+}
+p.cantidad2{
+    background-color:white;
+
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+position: absolute;
+margin-left: 255px;
+margin-top: -70px;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 1;
+
+}
+p.cantidad3{
+    background-color:white;
+
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+position: absolute;
+margin-left: 255px;
+margin-top: -40px;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 1;
+
+}
+
+.total{
+    border:1px solid lightgray;
+    margin-left: 10px;
+    height: 30px;
+    padding-top: 5px;
+    width: 80%;
+    text-align: end;
+    padding-right: 10px;
+    box-sizing: content-box;
+    font-size: 20px;
+
+}
+
+.botondecompra{
+    border: 2px solid white;
+    width: 100px;
+    background-color: rgb(153, 255, 0);
+    border-radius: 20px;
+    text-align: center;
+    height: 30px;
+    margin-left: 180px;
+    padding: 5, 5, 5, 5;
+
+}
+
+
