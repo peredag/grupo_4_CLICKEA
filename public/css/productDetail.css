@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800italic);
+* {
+    box-sizing:border-box;
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+    font-style:normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* VARIABLES DE COLOR, TEXTO ETC */
+:root {
+    --lightblue: #3C91E6;
+	--white: #F6F7EB;
+	--white-2: #BED8EA;
+	--orange: #FF5B0D; 
+    --green: #04CB00;
+}
+
+
+.body36 {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
+.cont-padre36{
+    width: 90%;
+    height: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color:var(--lightblue);
+    /* background-image: url(dos.jpg); */
+    display:flex;
+    flex-direction:row;/* row reverse, column... */
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagen-producto36{
+    width: 500px;
+    height: 600px;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    flex-direction: row-reverse;
+    justify-content:flex-start;
+    align-items: center;
+    background-color:var(--white);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+ 
+}
+
+.imagen-pro36{
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    object-fit: cover; /* TIP JONA */
+}
+
+.texto36{
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    margin: 15px; /* left-right, top-bottom */
+    border:5px;
+    border-radius: 15px;
+    padding: 5px;
+    content: var(--grey);
+    box-sizing: border-box; /* content-box */
+
+    background-color:var(--lightblue)
+}
+
+.title-1-36{
+    font-size: 40px;
+    color: white;
+
+}
+
+.precio36{
+    font-size: 20px;
+    color: white;
+}
+
+.importe36{
+    font-size: 30px;
+    color: white;
+}
+
+
+
+.parrafo36{
+    font-size: 20px;
+    color: white;
+}
+
+.ul36{
+    margin: 20px;
+}
+
+.boton-1-36{
+    padding: 20px;
+    margin: 15px;
+
+}
+
+.span36{
+    margin: 5px;
+}
+.button36{
+    width: 120px;
+    height: 50px;
+    background-color:var(--green);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.select36{
+    color:blue;
+}
+
+
+@media (max-width: 360px) {
+
+    .imagen-producto36{
+        width: 100%;
+        height: 100%;
+        position:relative;
+    }
+
+    .imagen-pro36{
+        width: 200px;
+        height: 200px;
+        position: relative;
+
+    }
+
+    .title-1-36{
+        font-size: 25px;
+    }
+
+    .parrafo36{
+        font-size: 15px;
+    }
+
+    .precio36{
+        font-size: 15px;
+        color: white;
+    }
+    
+    .importe36{
+        font-size: 20px;
+        color: white;
+    }
+    
+    .ul36{
+        margin: 25px;
+    }
+    
+    .boton-1{
+        padding: 20px;
+        margin: 15px;
+        
+    }
+    
+    .span36{
+        margin: 5px;
+    }
+    .button36{
+        width: 85px;
+        height: 40PX;
+        background-color:var(--green);
+        color: white;
+        font-size: 15px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    
+    .select36{
+        color:blue;
+    }
+
+}
+
