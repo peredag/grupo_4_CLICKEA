@@ -1,0 +1,81 @@
+:root{
+    --color-dark: rgb(0, 0, 0);
+    --color-dark-0: rgba(39, 48, 48, 0.885);
+    --color-dark-1: rgba(10, 10, 10, 0.659);
+    --color-light : white;
+    --color-gray: rgb(189, 177, 130);
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: var(--color-gray);
+    color: var(--color-light);
+    letter-spacing: .05rem;
+}
+
+.bg-light {
+    background-color: var(--color-light) !important;
+}
+
+.bg-dark{
+    background-color: var(--color-dark) !important;
+}
+
+.p-6 {
+    padding: 4rem 7rem;
+}
+
+.contact-box {
+    padding: 3rem;
+}
+
+.btn {
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 4rem;
+    min-width: 10rem;
+}
+
+.btn-outline-dark {
+    border: 2px solid var(--color-dark-1);
+    /* background: transparent !important; */
+}
+
+.form-control {
+    background-color: var(--color-dark-1);
+    border: 2px solid var(--color-dark-1);
+    border-radius: .2rem;
+    padding: 1.4rem 1rem;
+}
+
+.register-im {
+    background-image: url("..img/ciudad-borrosa-ciudad-personas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100ph;
+}
+
+.testimonial {
+    bottom: 10px;
+}
+
+@media (max-width: 575px){
+    .p-6{
+        padding: 2rem;
+    }
+    .contact-box{
+        padding: 0;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .register-im {
+        min-width: 50vh;
+    }
+}
