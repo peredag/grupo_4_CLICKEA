@@ -227,6 +227,7 @@ padding-top: 20px;
     height: 30px;
     padding-top: 5px;
     list-style-type: none;
+    border-radius: 5px;
 }
 
 p.mas1{
@@ -358,7 +359,7 @@ margin-top: -40px;
     padding-right: 10px;
     box-sizing: content-box;
     font-size: 20px;
-
+    border-radius: 5px;
 }
 
 /*Boton comprar*/
