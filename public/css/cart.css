@@ -3,7 +3,7 @@
 /*MOBILE*/
 
 html{
-    width: 320px;
+    width:320px;
 
 }
 
@@ -44,6 +44,8 @@ header.barra-navegacion{
     width: 140px;
     height: 90px;
     border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-bottom: 5px;
 
 }
 
@@ -58,7 +60,8 @@ header.barra-navegacion{
     border: 1px solid black;
     text-align: center;
     box-shadow: lightgray 1px 1px 1px;
-    background-color: rgb(252, 253, 243)
+    background-color: rgb(252, 253, 243);
+    border-radius: 5px;
 
 }
 .backgroundc{
@@ -134,6 +137,8 @@ span.fa.fa-star{
 }
 
 .divisiondelosmedios{
+    text-align: center;
+    align-content: center;
     margin-top: 60px;
 }
 
