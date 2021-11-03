@@ -1,0 +1,389 @@
+/*BASE MOBILE FIRST*/
+
+/*MOBILE*/
+
+/*"header"*/
+.carro{
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    background-color:rgb(63,136,197);
+    width: 100%;
+    color: white;
+}
+
+/*foto del producto*/
+.miniatura1{
+    padding: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 140px;
+    height: 90px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+}
+
+/*Recuadro de descripción de producto*/
+.nombre{
+    margin-left: 160px;
+    margin-right: 0px;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: lightgray 1px 1px 1px;
+    background-color: rgb(252, 253, 243);
+    border-radius: 5px;
+
+}
+.backgroundc{
+    background-color: rgb(252, 253, 243)
+}
+p.mas{
+    background-color:rgb(211, 241, 166);
+    display:flexbox;
+    width: 25px;
+    border: 1px solid lightgray;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight:bolder;
+    
+}
+p.menos{
+    background-color:rgb(216, 141, 141);
+    display:block;
+    width: 25px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: -28px;
+    font-weight:bolder;
+}
+p.cantidad{
+    background-color:white;
+
+    display:flexbox;
+    width: 25px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-top:-28px;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 1;
+
+}
+
+/*Estrellas*/
+
+.checked {
+  color: orange;
+  width: 40px;
+}
+
+.estrellas{
+    width: 100%;
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 20px;
+    justify-content: left;
+    place-content:initial;
+    display:flex;
+    box-sizing: content-box;
+    
+}
+
+span.fa.fa-star{
+    margin-left: 10px;
+    width:12px;
+  
+}
+/*Medios de pago*/
+.palabra-medios{
+    font-weight:bolder;
+    display: flex;
+    padding-top: 25px;
+    margin-left: 10px;
+}
+
+.divisiondelosmedios{
+    text-align: center;
+    align-content: center;
+    margin-top: 60px;
+}
+
+nav.mercadopago{
+    margin-left:-150px;
+    align-content: center;
+    display: flex;
+}
+.para-abajo322{
+    margin-top: 50px;
+}
+.mercadopa{
+width: 60px;
+text-align: center;
+align-content: center;
+margin-top: 20px;
+display: flex;
+position: absolute;
+}
+
+.checking{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 80px;
+}
+
+.visarda{
+     width: 70px;
+display: flex;
+text-align: center;
+margin-left: -70px;
+margin-top: 20px;
+position: absolute;
+}
+
+.visardi{
+    display: flex;
+    width: 100%;
+}
+
+#visa{
+    margin-left: 30px; 
+    position: absolute;
+    margin-top: 60px;
+}
+.american{
+width: 40px;
+margin-top: 20px;
+margin-left: 20px;
+
+}
+.ame{
+    width: 100%;
+
+}
+#ameri{
+    margin-top: 15px;
+    margin-left: -1px;
+}
+.paypall{
+width: 50px;
+position: absolute;
+margin-left: 80px;
+margin-top: -80px;
+    
+}
+.peipal{
+  width: 100%;
+  margin-top: -5px;
+
+}
+
+.medios-de-pago{
+    margin-top: 20px;
+   
+}
+
+.division{
+position: absolute;
+margin-top: 130px;
+border-bottom:2px solid lightgray;
+width: 100%;
+margin: 0, 0, 0, 0;
+
+}
+
+
+/*Carrito Actual */
+
+
+.carrito-actual{
+padding-top: 20px;
+}
+.carrillototal{
+    margin-top: 130px;
+    margin-left: 10px;
+
+}
+
+.lista1 li{
+    background-color: rgb(252, 253, 243);
+    border:1px solid lightgray;
+    margin-left: -40px;
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    list-style-type: none;
+    border-radius: 5px;
+}
+
+p.mas1{
+    background-color: rgb(211, 241, 166);
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    position: absolute;
+    text-align: center;
+    font-weight:bolder;
+    margin-left: 200px;
+    margin-top: -100px;
+}
+p.menos1{
+    background-color:rgb(216, 141, 141);
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    font-weight:bolder;
+    margin-left: 230px;
+    margin-top: -100px;
+}
+
+p.mas2{
+    background-color: rgb(211, 241, 166);
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    position: absolute;
+    text-align: center;
+    font-weight:bolder;
+    margin-left: 200px;
+    margin-top: -70px;
+}
+p.menos2{
+    background-color:rgb(216, 141, 141);
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    font-weight:bolder;
+    margin-left: 230px;
+    margin-top: -70px;
+}
+
+p.mas3{
+    background-color: rgb(211, 241, 166);
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    position: absolute;
+    text-align: center;
+    font-weight:bolder;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+p.menos3{
+    background-color:rgb(216, 141, 141);
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    font-weight:bolder;
+    margin-left: 230px;
+    margin-top: -40px;
+}
+
+p.cantidad1{
+    background-color:white;
+
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+position: absolute;
+margin-left: 255px;
+margin-top: -100px;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 1;
+
+}
+p.cantidad2{
+    background-color:white;
+
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+position: absolute;
+margin-left: 255px;
+margin-top: -70px;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 1;
+
+}
+p.cantidad3{
+    background-color:white;
+
+    display:flexbox;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+position: absolute;
+margin-left: 255px;
+margin-top: -40px;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 1;
+
+}
+
+.total{
+    background-color: rgb(252, 253, 243);
+    border:1px solid lightgray;
+    margin-left: 10px;
+    height: 30px;
+    padding-top: 5px;
+    width: 80%;
+    text-align: end;
+    padding-right: 10px;
+    box-sizing: content-box;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/*Boton comprar*/
+.botondecompra{
+    border: 2px solid white;
+    width: 100px;
+    background-color: rgb(153, 255, 0);
+    border-radius: 20px;
+    text-align: center;
+    height: 30px;
+    margin-left: 180px;
+    padding: 5, 5, 5, 5;
+
+
+}
+
+
+/*Banner*/
+
+.banner1{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.banner2{
+    width: 100%;
+    margin-top: -3.8px;
+}
+
+@media (max-width:768px){
+
+    
+}

@@ -2,7 +2,7 @@
   "name": "grupo_4_CLICKEA",
   "version": "1.0.0",
   "description": "- Los productos que ofreceremos serán de diversos rubros, facilitando la Compra de nuestros usuarios.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

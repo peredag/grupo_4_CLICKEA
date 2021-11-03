@@ -15,7 +15,7 @@
     --prices: 18px; /*precios*/
     --discounts-descriptions: 16px;/*descuentos y descripciones*/
 }
-
+ 
 
 * {
 	box-sizing: border-box;
@@ -95,20 +95,130 @@ a {
 
 
 
-@media (min-width: 769px) {
-	.header,
+@media (min-width: 768px) {
+
 	.main-nav {
 		display: flex;
 	}
 	.header {
 		flex-direction: column;
 		align-items: center;
-        .header{
-		width: 80%;
+		width: 100%;
 		margin: 0 auto;
 		max-width: 1150px;
 	}
+label.laboratorio{
+	display: none;
+}
+.solo-mobile322{
+	display: none;
+}
+}
+@media (max-width:767px){
+
+	.header {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin: 0 auto;
+		max-width: 1150px;
+		
 	}
+
+	header .burger-menu{
+		background-color: var(--light_blue);
+		color:white;
+		width: 15px;
+		padding:7px;
+		border-radius: 5px;
+		text-align: center;
+		padding: 4px;
+		margin:10px auto 0;
+		border: 1px solid lightgray;
+		width: 30px;
+		height: 32px;
+		margin-bottom: 10px;
+		
+		/*top right bottom left */
+	
+	}
+
+	.main-nav{
+		display: none;
+	}
+
+	.header .burger-menu:hover {
+		color: lightgray;
+	}
+	
+
+	ul.bellagio {
+		opacity: 0;
+		width: 50%;
+		position: absolute;
+		background-color: antiquewhite;
+		border-radius: 0 20px 20px 0;
+		padding: 50px;
+		transition: all 0.2s ease;
+	}
+	
+	input:checked  ~ ul{
+		opacity: 100%;
+		width: 50%;
+	}
+	
+	input.clase322 {
+		display: none;
+	}
+	
+	label.laboratorio {
+		box-sizing: border-box;
+		display: inline-block;
+		border: 1px solid black;
+		border-radius: 5px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		font-weight: bold;
+		text-align: center;
+		user-select: none;
+	
+	}
+	
+	label.laboratorio:hover {
+		background: lightblue;
+	}
+	
+	input.clase322:checked  ~ label {
+		background: #84c2ff;
+		border-radius: 50%;
+	
+	}
+	
+	ul.bellagio{
+		margin-top:0;
+		padding: 0;
+		width: 200px;
+	  
+	  }
+	  
+	  
+	  .lista32{
+		display: block;
+		position: relative;
+		margin: 0;
+		padding: 10px;
+		list-style: none;
+		width: 25%;
+		transition:all 1s ease-in-out;
+		cursor: pointer;
+		color: black;
+	  }
+
+	  .lista32 a{
+		  color: black;
+	  }
+	  
 
 }
 
