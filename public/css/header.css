@@ -75,8 +75,8 @@ a {
 
 
 .header {
+	display: flex;
 	padding-top: 20px;
-	
 	border: 1px solid #a2a2a2;
 	background-color: var(--lightblue);
 	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
@@ -167,6 +167,7 @@ label.laboratorio{
 	input:checked  ~ ul{
 		opacity: 100%;
 		width: 50%;
+		margin-left: -160px;
 		position: absolute;
 		background-color: var(--lightblue);
 		
@@ -178,6 +179,7 @@ label.laboratorio{
 	
 	label.laboratorio {
 		box-sizing: content-box;
+		position: absolute;
 		display: inline-block;
 		border: 1px solid black;
 		border-radius: 5px;
@@ -186,9 +188,9 @@ label.laboratorio{
 		line-height: 30px;
 		font-weight: bold;
 		text-align: center;
-		margin-left: 45%;
-
-	
+		margin-top: -40px;
+		margin-left: -150px;
+		
 	}
 	
 	label.laboratorio:hover {
@@ -205,7 +207,7 @@ label.laboratorio{
 		position: absolute;
 		margin-top:0;
 		padding: 0;
-		width: 200px;
+	
 	  
 	  }
 	  
@@ -234,6 +236,7 @@ label.laboratorio{
 
 @media (min-width: 1025px) {
 	.header {
+		justify-content: space-between;
 		flex-direction: row;
 		justify-content: space-between;
 	}

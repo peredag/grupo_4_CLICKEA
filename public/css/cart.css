@@ -6,14 +6,15 @@
 
 /*foto del producto*/
 html{
-    width: 320px;
+    width: 100%;
 }
 .miniatura1{
-    padding: 3px;
+    padding: 5px 0;
     margin-top: 10px;
     margin-left: 10px;
-    width: 140px;
-    height: 90px;
+    margin-right: 2px;
+    width: 90%;
+    height: 170px;
     border: 1px solid lightgray;
     border-radius: 5px;
 
@@ -88,7 +89,7 @@ p.cantidad{
     width: 100%;
     margin-top: 25px;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 90px;
     justify-content: left;
     place-content:initial;
     display:flex;
@@ -107,12 +108,13 @@ span.fa.fa-star{
 }
 
 .palabra-medios h4{
+    font-size: 20px;
     font-weight:bolder;
     display: flex;
     padding-top: 25px;
     margin-left: 10px;
 }
-.Medios1{
+nav.Medios1{
     margin-top: -30px;
 }
 .divisiondelosmedios{
@@ -124,12 +126,10 @@ span.fa.fa-star{
 
 
 div.division-mercadopago{
-    width: 40px;
+    width:60px;
 }
 .mercadopa{
     width: 100%;
-    text-align: center;
-    align-content: center;
     margin-top: 20px;
     display: flex;
     
@@ -142,44 +142,49 @@ div.division-mercadopago{
 
 
 .visarda{
-     width: 70px;
-display: flex;
+     width: 60px;
 text-align: center;
-margin-left: -70px;
-margin-top: 20px;
-
+align-content: center;
+margin-left: 80px;
+margin-top: -80px;
 }
 
 .visardi{
     display: flex;
     width: 100%;
 }
+#visa{
+  margin-top: 20px;
+
+}
 
 
 .american{
-width: 40px;
-margin-top: 20px;
-margin-left: 20px;
+width: 60px;
+margin-top: -85px;
+margin-left: 160px;
 
 }
 .ame{
-    width: 100%;
+    width: 80%;
 
 
 }
 #ameri{
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: -1px;
 }
 .paypall{
 width: 50px;
-margin-left: 80px;
+margin-left: 240px;
 margin-top: -80px;
     
 }
 .peipal{
   width: 100%;
-  margin-top: -5px;
+  margin-top: -10px;
+  display: flex;
+  margin-bottom: 5px;
 
 }
 
