@@ -86,11 +86,11 @@ p.cantidad{
 }
 
 .estrellas{
-    width: 100%;
+    width: 50%;
     margin-top: 25px;
     font-size: 20px;
-    margin-left: 90px;
-    justify-content: left;
+    padding: 5px;
+  justify-content: space-between;
     place-content:initial;
     display:flex;
     box-sizing: content-box;
@@ -116,6 +116,8 @@ span.fa.fa-star{
 }
 nav.Medios1{
     margin-top: -30px;
+    width: 100%;
+ 
 }
 .divisiondelosmedios{
     text-align: center;
@@ -127,6 +129,11 @@ nav.Medios1{
 
 div.division-mercadopago{
     width:60px;
+    margin-right: 160px;
+    display: flex;
+}
+.mercadopago{
+    width: 0px;
 }
 .mercadopa{
     width: 100%;
@@ -145,7 +152,7 @@ div.division-mercadopago{
      width: 60px;
 text-align: center;
 align-content: center;
-margin-left: 80px;
+margin-left: 30px;
 margin-top: -80px;
 }
 
@@ -162,7 +169,7 @@ margin-top: -80px;
 .american{
 width: 60px;
 margin-top: -85px;
-margin-left: 160px;
+margin-left: 170px;
 
 }
 .ame{
@@ -229,6 +236,10 @@ width: 100%;
     padding-top: 5px;
     list-style-type: none;
     border-radius: 5px;
+}
+
+.cosas-del-carrito{
+    margin-left: 30px;
 }
 
 p.mas1{
@@ -350,10 +361,11 @@ margin-top: -28px;
 .total{
     background-color: rgb(252, 253, 243);
     border:1px solid lightgray;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
     height: 30px;
     padding-top: 5px;
-    width: 80%;
+    width: 90%;
     text-align: end;
     padding-right: 10px;
     box-sizing: content-box;
@@ -369,8 +381,10 @@ margin-top: -28px;
     border-radius: 20px;
     text-align: center;
     height: 30px;
-    margin-left: 180px;
-    padding: 5, 5, 5, 5;
+    margin-left: 210px;
+    padding: 5px, 5px, 5px, 5px;
+    align-content: center;
+    margin-top: 10px;
 
 
 }
@@ -388,7 +402,51 @@ margin-top: -28px;
     margin-top: -3.8px;
 }
 
-@media (max-width:768px){
+/* Media tablet */
+@media (min-width:767px){
 
+    .sumando322{
+        text-align: center;
+        align-content: center;
+        margin-left: 42%;
+    }
+    .estrellas{
+        width: 50%;
+        margin-top: 25px;
+        font-size: 20px;
+        padding: 5px;
+      justify-content: space-between;
+        place-content:initial;
+        display:flex;
+        box-sizing: content-box;
+        
+    }
     
+
+
+
+}
+
+
+/*Media Desktop */
+@media (min-width:1023px){
+
+    .sumando322{
+        width: 70px;
+        text-align: center;
+        align-content: center;
+        margin-left: 45%;
+    }
+    .estrellas{
+        width: 50%;
+        margin-top: 25px;
+        font-size: 20px;
+        padding: 5px;
+      justify-content: space-between;
+        place-content:initial;
+        display:flex;
+        box-sizing: content-box;
+        
+    }
+
 }

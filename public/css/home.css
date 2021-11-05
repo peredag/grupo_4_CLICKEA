@@ -6,7 +6,8 @@
 }
 
 .body-36 {
-    background-image: url('/dos.jpg');
+    width: 100%;
+    background-image: url(/public/img/dos.jpg) no-repeat center top;
     
 }
 
@@ -25,7 +26,7 @@
 
     width: 90%;
     height: 450px;
-    background-color:darkviolet;
+    background-color:rgba(148, 0, 211, 0.185);
     text-align: center; /* CENTRAR CONTENIDO */
     margin: 5px;
     padding: 5px;
@@ -106,7 +107,7 @@
     
         width: 300px;
         height: 525px;
-        background-color:darkviolet;
+        background-color:rgba(0, 0, 0, 0.178);
         text-align: center; /* CENTRAR CONTENIDO */
         margin: 5px;
         padding: 5px;
