@@ -60,6 +60,21 @@
     
 }
 
+.section-novedades-36{
+    background-color: aqua;
+    font-size: 30px;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.section-mas-vendidos-36{
+    background-color:blue;
+    font-size: 30px;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+
 
 
 
@@ -72,13 +87,18 @@
     }
 
     .padre-36{
-        display: flex; /* INDISPENSABLE */
+        /* display: flex; */     /* INDISPENSABLE */
         /* flex-direction: column;  *//* ALINEA EN COLUMNA */
         flex-direction: row;  /* ALINEA EN FILA */
         width: 100%;
         height: 100%;
         /* background-color: blue; */
         text-align: center;
+       /*  align-items: center; */
+       /*  margin: auto; */
+       /* display: inline-block; */
+       justify-content: center; /* alineacion de los items dentro del div */
+       
         
     }
     
