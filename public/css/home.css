@@ -1,0 +1,136 @@
+* {
+    box-sizing:border-box;
+    margin: 0  auto ;
+    padding: 0;
+    
+}
+
+.body-36 {
+    background-image: url('/dos.jpg');
+    
+}
+
+
+.padre-36{
+    display: flex; /* INDISPENSABLE */
+    flex-direction: column; /* ALINEA EN COLUMNA */
+    /* flex-direction: row; */ /* ALINEA EN FILA */
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    
+}
+
+.hijo1-36{
+
+    width: 90%;
+    height: 450px;
+    background-color:darkviolet;
+    text-align: center; /* CENTRAR CONTENIDO */
+    margin: 5px;
+    padding: 5px;
+    line-height: 20px; /* INTERLINEADO */
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.imagen-producto-36{
+    width: 95%;
+    height: 90%;
+    object-fit: cover;
+    background-color:yellow;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.botones-36{
+    background-color: royalblue;
+    width: 80%;
+    height: 5%;
+}
+
+.boton-agregar-36{
+    background-color:red;
+    font-size: 10x;
+    border-radius: 10px;
+    height: 10%;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+
+
+
+@media (min-device-width : 767px){
+
+    .h2-36{
+        font-size: 60px;
+        color:violet;
+        text-align: left;
+    }
+
+    .padre-36{
+        display: flex; /* INDISPENSABLE */
+        /* flex-direction: column;  *//* ALINEA EN COLUMNA */
+        flex-direction: row;  /* ALINEA EN FILA */
+        width: 100%;
+        height: 100%;
+        /* background-color: blue; */
+        text-align: center;
+        
+    }
+    
+    .hijo1-36{
+    
+        width: 300px;
+        height: 525px;
+        background-color:darkviolet;
+        text-align: center; /* CENTRAR CONTENIDO */
+        margin: 5px;
+        padding: 5px;
+        line-height: 30px; /* INTERLINEADO */
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    
+    .imagen-producto-36{
+        width: 95%;
+        height: 90%;
+        object-fit: cover;
+        background-color:yellow;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 15px;
+    }
+    
+    .botones-36{
+        background-color: royalblue;
+        width: 80%;
+        height: 5%;
+    }
+    
+    .boton-agregar-36{
+        background-color:red;
+        font-size: 10x;
+        color:black;
+        border-radius: 10px;
+        height: 10%;
+        margin: 5px;
+        padding: 5px;
+        
+    }
+
+    .banner-36 {
+        text-align: center;
+    }
+    
+    
+
+
+
+
+
+
+}
