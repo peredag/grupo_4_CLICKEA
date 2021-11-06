@@ -85,6 +85,10 @@
    display: none;
 }
 
+.h2{
+    color:red;
+}
+
 
 
 
@@ -163,7 +167,9 @@
     .banner-36{
         display: flex;
     }
-    
+    h2{
+        color:red;
+    }
     
 
 
