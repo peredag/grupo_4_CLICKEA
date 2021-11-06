@@ -2,6 +2,8 @@
     box-sizing:border-box;
     margin: 0  auto ;
     padding: 0;
+    font-style:normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
 
@@ -39,21 +41,22 @@
     width: 95%;
     height: 90%;
     object-fit: cover;
-    background-color:yellow;
+  /*   background-color:yellow; */
     margin: 10px;
     padding: 5px;
     border-radius: 15px;
 }
 
 .botones-36{
-    background-color: royalblue;
+  /*   background-color: royalblue; */
     width: 80%;
     height: 5%;
 }
 
 .boton-agregar-36{
-    background-color:red;
+    background-color:rgb(69, 80, 223);
     font-size: 10x;
+    color: white;
     border-radius: 10px;
     height: 10%;
     margin: 5px;
@@ -62,17 +65,54 @@
 }
 
 .section-novedades-36{
-    background-color: aqua;
+    background-color: rgb(69, 80, 223);
+    font-size: 30px;
+    /* justify-content: center; */
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    /* border-radius: 5%; */
+}
+
+.section-mas-vendidos-36{
+    background-color:rgb(69, 80, 223);
     font-size: 30px;
     /* justify-content: center; */
     text-align: center;
 }
 
-.section-mas-vendidos-36{
-    background-color:blue;
-    font-size: 30px;
-    /* justify-content: center; */
-    text-align: center;
+.logo-36{
+    border-radius: 20px;
+}
+
+.banner-36{
+   display: none;
+}
+
+.h2{
+    color:red;
+}
+
+.footer-36{
+    background-color:rgb(69, 80, 223);
+    display: flex; /* INDISPENSABLE */
+    flex-direction: column; /* ALINEA EN COLUMNA */
+    /* flex-direction: row; */ /* ALINEA EN FILA */
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.footer-hijo1-36{
+    width: 90%;
+    height: 80px;
+    /* background-color:rgba(148, 0, 211, 0.185); */
+    text-align: center; /* CENTRAR CONTENIDO */
+    margin: 5px;
+    padding: 5px;
+    line-height: 20px; /* INTERLINEADO */
+    border-radius: 10px;
+    font-size: 15px;
 }
 
 
@@ -106,36 +146,36 @@
     .hijo1-36{
     
         width: 300px;
-        height: 525px;
+        height: 450px;
         background-color:rgba(0, 0, 0, 0.178);
         text-align: center; /* CENTRAR CONTENIDO */
         margin: 5px;
         padding: 5px;
-        line-height: 30px; /* INTERLINEADO */
+        line-height: 20px; /* INTERLINEADO */
         border-radius: 10px;
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .imagen-producto-36{
         width: 95%;
         height: 90%;
         object-fit: cover;
-        background-color:yellow;
+      /*   background-color:yellow; */
         margin: 10px;
         padding: 5px;
         border-radius: 15px;
     }
     
     .botones-36{
-        background-color: royalblue;
+        /* background-color: royalblue; */
         width: 80%;
         height: 5%;
     }
     
     .boton-agregar-36{
-        background-color:red;
+        background-color:rgb(69, 80, 223)
         font-size: 10x;
-        color:black;
+        color: white;
         border-radius: 10px;
         height: 10%;
         margin: 5px;
@@ -146,7 +186,39 @@
     .banner-36 {
         text-align: center;
     }
-    
+
+    .logo-36{
+        border-radius: 20px;
+    }
+
+    .banner-36{
+        display: flex;
+    }
+    h2{
+        color:red;
+    }
+
+    .footer-36{
+        background-color:rgb(69, 80, 223);
+        display: flex; /* INDISPENSABLE */
+      /*   flex-direction: column; */ /* ALINEA EN COLUMNA */
+        flex-direction: row; /* ALINEA EN FILA */
+        width: 100%;
+        height: 100%;
+        /* background-color: blue; */
+    }
+
+    .footer-hijo1-36{
+        width: 30%;
+        height: 80px;
+        /* background-color:rgba(148, 0, 211, 0.185); */
+        text-align: center; /* CENTRAR CONTENIDO */
+        margin: 5px;
+        padding: 5px;
+        line-height: 20px; /* INTERLINEADO */
+        border-radius: 10px;
+        font-size: 15px;
+    }
     
 
 
