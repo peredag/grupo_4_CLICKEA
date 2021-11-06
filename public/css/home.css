@@ -56,6 +56,7 @@
 .boton-agregar-36{
     background-color:rgb(69, 80, 223);
     font-size: 10x;
+    color: white;
     border-radius: 10px;
     height: 10%;
     margin: 5px;
@@ -173,7 +174,7 @@
     .boton-agregar-36{
         background-color:rgb(69, 80, 223)
         font-size: 10x;
-        color:black;
+        color: white;
         border-radius: 10px;
         height: 10%;
         margin: 5px;
