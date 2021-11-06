@@ -141,14 +141,14 @@
     .hijo1-36{
     
         width: 300px;
-        height: 525px;
+        height: 450px;
         background-color:rgba(0, 0, 0, 0.178);
         text-align: center; /* CENTRAR CONTENIDO */
         margin: 5px;
         padding: 5px;
-        line-height: 30px; /* INTERLINEADO */
+        line-height: 20px; /* INTERLINEADO */
         border-radius: 10px;
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .imagen-producto-36{
