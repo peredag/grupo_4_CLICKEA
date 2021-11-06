@@ -2,6 +2,8 @@
     box-sizing:border-box;
     margin: 0  auto ;
     padding: 0;
+    font-style:normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
 
@@ -39,14 +41,14 @@
     width: 95%;
     height: 90%;
     object-fit: cover;
-    background-color:yellow;
+  /*   background-color:yellow; */
     margin: 10px;
     padding: 5px;
     border-radius: 15px;
 }
 
 .botones-36{
-    background-color: royalblue;
+  /*   background-color: royalblue; */
     width: 80%;
     height: 5%;
 }
@@ -77,6 +79,10 @@
 
 .logo-36{
     border-radius: 20px;
+}
+
+.banner-36{
+   display: none;
 }
 
 
@@ -123,14 +129,14 @@
         width: 95%;
         height: 90%;
         object-fit: cover;
-        background-color:yellow;
+      /*   background-color:yellow; */
         margin: 10px;
         padding: 5px;
         border-radius: 15px;
     }
     
     .botones-36{
-        background-color: royalblue;
+        /* background-color: royalblue; */
         width: 80%;
         height: 5%;
     }
@@ -152,6 +158,10 @@
 
     .logo-36{
         border-radius: 20px;
+    }
+
+    .banner-36{
+        display: flex;
     }
     
     
