@@ -75,6 +75,9 @@
     text-align: center;
 }
 
+.logo-36{
+    border-radius: 20px;
+}
 
 
 
@@ -145,6 +148,10 @@
 
     .banner-36 {
         text-align: center;
+    }
+
+    .logo-36{
+        border-radius: 20px;
     }
     
     
