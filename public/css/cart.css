@@ -111,12 +111,14 @@ span.fa.fa-star{
     font-size: 20px;
     font-weight:bolder;
     display: flex;
-    padding-top: 25px;
-    margin-left: 10px;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
 }
 nav.Medios1{
     margin-top: -30px;
     width: 100%;
+    justify-content: space-between;
  
 }
 .divisiondelosmedios{
@@ -133,7 +135,7 @@ div.division-mercadopago{
     display: flex;
 }
 .mercadopago{
-    width: 0px;
+    width: 60px;
 }
 .mercadopa{
     width: 100%;
@@ -170,10 +172,10 @@ margin-top: -80px;
 width: 60px;
 margin-top: -85px;
 margin-left: 170px;
-
 }
 .ame{
     width: 80%;
+    display: flex;
 
 
 }
@@ -404,6 +406,7 @@ margin-top: -28px;
 
 /* Media tablet */
 @media (min-width:767px){
+    
 
     .sumando322{
         text-align: center;
@@ -421,7 +424,115 @@ margin-top: -28px;
         box-sizing: content-box;
         
     }
+    .palabra-medios h4{
+        margin-left: 10px;
+    }
+    .mercadopa{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        display: flex;
+        
+        }
+        div.division-mercadopago{
+            width:300px;
+            margin-left: 450px;
+            display: flex;
+        }
+        #mercadopa{
+            margin-left: 100px;
+        }
+        .paypall{
+            width: 200px;
+            margin-left: 370px;
+            margin-top: -235px;
+                
+            }
+            .peipal{
+              width: 100%;
+              margin-top: -10px;
+              margin-bottom: 5px;
+            
+            }
+            
+
+.visarda{
+    width: 180px;
+text-align: center;
+align-content: center;
+margin-left: 10px;
+margin-top: -162px;
+position: absolute;
+}
+
+.visardi{
+   display: flex;
+   width: 100%;
+   margin-bottom: 10px;
+}
+#visa{
+ margin-top: 20px;
+
+}
+
+            
+.american{
+width: 150px;
+margin-top: -200px;
+margin-left: 210px;
+}
+.ame{
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+
+
+
+}
+#ameri{
+    margin-top: 10px;
+    margin-left: -1px;
+}
+
+
+
     
+    .cosas-del-carrito{
+        margin-left: 480px;
+    }
+.carrillototal h4{
+    padding-left: 10px;
+}
+.total{
+    background-color: rgb(252, 253, 243);
+    border:1px solid lightgray;
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 30px;
+    padding-top: 5px;
+    width: 95%;
+    text-align: end;
+    padding-right: 10px;
+    box-sizing: content-box;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.botondecompra{
+    border: 2px solid white;
+    width: 150px;
+    background-color: rgb(153, 255, 0);
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+    height: 50px;
+    margin-left: 610px;
+    padding: 5px, 5px, 5px, 5px;
+    align-content: center;
+    margin-top: 10px;
+
+
+}
 
 
 
@@ -430,6 +541,18 @@ margin-top: -28px;
 
 /*Media Desktop */
 @media (min-width:1023px){
+    .miniatura1{
+        padding: 5px 0;
+        margin-top: 10px;
+    
+        margin-right: 2px;
+        width: 40%;
+        height:40%;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+    
+    }
+
 
     .sumando322{
         width: 70px;
@@ -440,13 +563,16 @@ margin-top: -28px;
     .estrellas{
         width: 50%;
         margin-top: 25px;
-        font-size: 20px;
+        font-size: 40px;
         padding: 5px;
-      justify-content: space-between;
+      justify-content:stretch;
         place-content:initial;
-        display:flex;
-        box-sizing: content-box;
+         
+
         
+    }
+    .estrellas .span{
+        width: 40px;
     }
 
 }
