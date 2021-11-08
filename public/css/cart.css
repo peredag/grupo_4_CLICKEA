@@ -561,10 +561,12 @@ margin-left: 210px;
         margin-left: 45%;
     }
     .estrellas{
-        width: 50%;
-        margin-top: 25px;
+        width: 20%;
+        margin-top: -556px;
         font-size: 40px;
-        padding: 5px;
+        padding-bottom: 451px;
+        position: relative;
+        margin-left:60%;
       justify-content:stretch;
         place-content:initial;
          
@@ -573,6 +575,117 @@ margin-left: 210px;
     }
     .estrellas .span{
         width: 40px;
+    }
+
+    .divison322{
+        width: 50%;
+    }
+    
+    .palabra-medios h4{
+        font-size: 20px;
+        font-weight:bolder;
+        display: flex;
+        margin-left: 45%;
+        margin-top: -400px;
+        padding-top: 24px;
+        padding-bottom: 30px;
+        margin-bottom: 25px;
+    }
+    nav.Medios1{
+        margin-top: -30px;
+        width: 50%;
+        justify-content: space-between;
+     
+    }
+    .divisiondelosmedios{
+        text-align: center;
+        align-content: center;
+        margin-top: 60px;
+    }
+    
+    
+    
+    div.division-mercadopago{
+        width:60px;
+        margin-right: 160px;
+        display: flex;
+    }
+    .mercadopago{
+        width: 60px;
+    }
+    .mercadopa{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        
+        }
+        
+    .para-abajo322no{
+        width: 100%;
+    }
+    
+    
+    
+    .visarda{
+         width: 60px;
+    text-align: center;
+    align-content: center;
+    margin-left: 30px;
+    margin-top: -80px;
+    }
+    
+    .visardi{
+        display: flex;
+        width: 100%;
+    }
+    #visa{
+      margin-top: 20px;
+    
+    }
+    
+    
+    .american{
+    width: 60px;
+    margin-top: -85px;
+    margin-left: 170px;
+    }
+    .ame{
+        width: 80%;
+        display: flex;
+    
+    
+    }
+    #ameri{
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+    .paypall{
+    width: 50px;
+    margin-left: 240px;
+    margin-top: -80px;
+        
+    }
+    .peipal{
+      width: 100%;
+      margin-top: -10px;
+      display: flex;
+      margin-bottom: 5px;
+    
+    }
+    
+    .medios-de-pago{
+        margin-top: 20px;
+       
+    }
+    
+    .division{
+    
+    position:relative;
+    margin-top: 20px;
+    border-bottom:2px solid lightgray;
+    width: 320px;
+    
+    
     }
 
 }

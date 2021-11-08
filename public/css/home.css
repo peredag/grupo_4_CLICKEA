@@ -81,12 +81,19 @@
     text-align: center;
 }
 
-.logo-36{
-    border-radius: 20px;
-}
+    .logo-36{
+        display: flex;
+        justify-content: center;
+        border-radius: 50px;
+        padding:2px;
+        width: 100px;
+        height: 100px;
+
+    }
 
 .banner-36{
    display: none;
+   width: fit-content
 }
 
 .h2{
@@ -173,7 +180,7 @@
     }
     
     .boton-agregar-36{
-        background-color:rgb(69, 80, 223)
+        background-color:rgb(69, 80, 223);
         font-size: 10x;
         color: white;
         border-radius: 10px;
@@ -185,14 +192,21 @@
 
     .banner-36 {
         text-align: center;
+        width: fit-content;
     }
 
     .logo-36{
-        border-radius: 20px;
+        display: flex;
+      
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+
     }
 
     .banner-36{
         display: flex;
+        width: fit-content;
     }
     h2{
         color:red;

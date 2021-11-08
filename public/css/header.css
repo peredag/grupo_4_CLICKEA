@@ -253,12 +253,14 @@ label.laboratorio{
 		flex-direction: row;
 		justify-content: space-between;
 	}
+
 	.header .naranja322{
 		display: block;
 	}
 .division-paypal{
 	display: flex;
 }
+
 }
 
 @media (max-width:1023px){
