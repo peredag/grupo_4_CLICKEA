@@ -1,17 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/login.css">
     <title>Login</title>
+    <header class="header">
+        <h1 class="logo"><a href="/">CLICKEA</a></h1>
+            <!-- <div class="logo"><img src="Logo.png"> </div> -->
+        <ul class="main-nav">
+            <li><a class="naranja322" href="#">Computación</a></li>
+            <li><a class="naranja322" href="#">Electrodomésticos</a></li>
+            <li><a class="naranja322" href="#">Celulares</a></li>
+            <li><a href="/productDetail">ProductDetail</a></li>
+            <li><a href="#"><i class="fas fa-search"></i></a></li>
+            <li><a href="/register"> <i class="fas fa-address-card"></i>
+            </a> </li>
+            <li><a href="/login"><i class="fas fa-user-circle"></i></a> </li>
+           
+            <li><a href="/productCart"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+      <div>
+          
+
+
+            <nav class="solo-mobile322">
+                <input class="clase322" type="checkbox" id="menu">
+                <label class="laboratorio" for="menu"> ☰ </label>
+                <ul class="bellagio">
+                    <li class="lista32"><a href="#">Computación</a></li>
+                    <li class="lista32"><a href="#">Electrodomésticos</a></li>
+                    <li class="lista32"><a href="#">Celulares</a></li>
+                    <li class="lista32"><a href="/productDetail">ProductDetail</a></li>
+                    <!-- <li class="lista32"><a href="#"><i class="fas fa-search"></i></a></li>
+                    <li class="lista32"><a href="/register"><i class="fas fa-address-card"> Registro</i>
+                    </a></li> -->
+                    <!-- <li class="lista32"><a href="/login"><i class="fas fa-user-circle"> Login</i></a></li> -->
+                    <li class="lista32"><a href="/productCart"><i class="fas fa-shopping-cart"></i>Carrito</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+
+    </header>
 </head>
+
+
 <body>
 
     <div class="Login">
             
-        <img class="icono" src="img/Logo.png" alt="Login">
+        <!-- <img class="icono" src="img/Logo.png" alt="Login"> -->
         <h1>INGRESA AQUÍ</h1>
         <form>
             <!--username-->
@@ -25,19 +68,27 @@
             <input type="submit" value="Acceder">
             <a href="#">Olvidaste tu contraseña?</a><br>
             <a href="#">Aun no tenes una cuenta?</a>
-            <a1 href="#">Registrarse</a>
+            <a1 class= "reg" href="#">Registrarse</a> 
+                <p class="ab">Iniciar con:</p>
+
+
+
 
         </form>
-        <!-- </div>
-<div class= "goologin">
-            <div class= "goologinimg">
-                <img src="img/google.png" alt="google">
-            </div>
- </div>
- <div class= "facelogin">
-    <div class= "faceloginimg">
-        <img src="img/logoface.png" alt="facebook">
-    </div> -->
+                <div class="social-login">
+                    <!-- ^para el logo de goo y fac -->
+                   
+                    <div class="social-login-element">
+                        <img src="img/google.png" alt="google-image">
+                        <span>Google</span>
+                    </div>
+    
+                    <div class="social-login-element">
+                        <img src="img/logoface.png" alt="facebook-image">
+                        <span>Facebook</span>
+                    </div>
+                </div>
+        
 </div>
 
 </body>

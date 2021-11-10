@@ -1,18 +1,290 @@
+@import url('https://fonts.googleapis.com/css2? family = Source + Sans + Pro: ital, wght @ 0,400; 0,700; 1,600 & display = swap');
+
+:root {
+	/* COLORS */
+   /*  --lightblue: #3C91E6; */
+	--lightblue: rgb(69, 80, 223);
+
+	--white: #F6F7EB;
+	--white-2: #BED8EA;
+	--orange: #FF5B0D; /* Colors-Puedo guardar el color en una variable, despues solo lo invoco*/
+
+
+
+    /*Font*/
+    --font-roboto:"Roboto", sans-serif;
+    /*Font sizes*/
+    --paragraph: 12px; /*parrafo o cuerpo del texto*/
+    --title: 24px; /*precios*/
+    --prices: 18px; /*precios*/
+    --discounts-descriptions: 16px;/*descuentos y descripciones*/
+}
+ 
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family:var(--font-roboto);
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+a {
+	color: var(--white);
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.logo {
+	margin: 0;
+	font-size: 20px; 
+} 
+
+
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: var(--white);
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+	padding-top: 20px;
+	border: 1px solid #a2a2a2;
+	background-color: var(--lightblue);
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+/* Media tablet */
+@media (min-width: 767px) {
+
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-around;
+	
+	}
+	.header .naranja322{
+		display: none;
+	}
+label.laboratorio{
+	display: none;
+}
+.solo-mobile322{
+	display: none;
+}
+}
+
+/* Media Mobile */
+@media (max-width:767px){
+
+	.header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin: 0 auto;
+		max-width: 1150px;
+		
+	}
+
+	header .burger-menu{
+		background-color: var(--light_blue);
+		color:white;
+		width: 15px;
+		padding:7px;
+		border-radius: 5px;
+		text-align: center;
+		padding: 4px;
+		margin:10px auto 0;
+		border: 1px solid lightgray;
+		width: 30px;
+		height: 32px;
+		margin-bottom: 10px;
+		
+		/*top right bottom left */
+	
+	}
+
+	.main-nav{
+		display: none;
+	}
+
+	.header .burger-menu:hover {
+		color: lightgray;
+	}
+	
+
+	ul.bellagio {
+		opacity: 0;
+		width: 30%;
+		position: absolute;
+		background-color: antiquewhite;
+		border-radius: 0 0 30px 0;
+		padding: 50px;
+		transition: all 0.2s ease;
+	}
+	
+	input:checked  ~ ul{
+		opacity: 100%;
+		width: 50%;
+		margin-left: -160px;
+		position: absolute;
+		background-color: var(--lightblue);
+		
+	}
+	
+	input.clase322 {
+		display: none;
+	}
+	
+	label.laboratorio {
+		box-sizing: content-box;
+		position: absolute;
+		display: inline-block;
+		border: 1px solid black;
+		border-radius: 5px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: -40px;
+		margin-left: -150px;
+		
+	}
+	
+	label.laboratorio:hover {
+		background: lightblue;
+	}
+	
+	input.clase322:checked  ~ label {
+		background: #84c2ff;
+		border-radius: 50%;
+	
+	}
+	
+	ul.bellagio{
+		position: absolute;
+		margin-top:0;
+		padding: 0;
+	
+	  
+	  }
+	  
+	  
+	.bellagio li.lista32{
+		display: block;
+		position: relative;
+		margin: 0;
+		padding: 10px;
+		list-style: none;
+		width: 25%;
+		transition:all 1s ease-in-out;
+		cursor: pointer;
+		color: white;
+		
+	  }
+
+	  .lista32 a{
+		  color: black;
+	  }
+	  
+
+}
+
+/*   Media Desktop*/
+
+@media (min-width: 1025px) {
+	.header {
+		justify-content: space-between;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.header .naranja322{
+		display: block;
+	}
+.division-paypal{
+	display: flex;
+}
+}
+
+@media (max-width:1023px){
+
+
+}
+
+
 body {
     margin: 0;
     padding: 0;
-    background: url(../img/dos.jpg) no-repeat center top;
+    background: url(../img/dos12.jpg) no-repeat center top;
     background-size: cover;
-    font-family: sans-serif;
-    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    height: 75vh;
+    
 }
 
 .Login {
-    width: 320px;
-    height: 420px;
+    width: 360px;
+    height: 500px;
     border-radius: 20px;
-    background: grey;
-    color: #fff;
+    background:rgba(0, 0, 0, 0.494);
+    color: rgb(255, 255, 255);
     top: 50%;
     left: 50%;
     position: absolute;
@@ -51,12 +323,14 @@ body {
 .Login input[type="text"],
 .Login input[type="password"] {
 border: none;
-border-bottom:1px solid oldlace;
+border-bottom:1px solid rgb(209, 141, 15);
 background: transparent;
 outline: none;
 height: 30px;
-color:white;
+color:rgba(79, 75, 75, 0.582);
 font-size: 14px;
+
+cursor: pointer;
 }
 
 .Login input[type="submit"] {
@@ -76,9 +350,9 @@ font-size: 14px;
     color: rgb(255, 255, 255);
 }
 
-.Login a:hover {
+/* .Login a:hover {
     color: rgb(255, 217, 0);
-}
+} */
 
 .Login a1 {
     text-decoration: none;
@@ -87,6 +361,76 @@ font-size: 14px;
     color: rgb(255, 255, 255);
 }
 
-.Login a1 :hover {
+ .reg :hover {
     color: rgb(0, 255, 21);
+    /* background-color: #fff; */
+    cursor: pointer;
+} 
+
+.ab {
+    margin-top: 1.5em;
+    outline: none;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+   
+    
+    
+}
+
+/* contenedor de logos */
+.social-login {
+    width: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+    /* para que se comparta el espacio */
+    justify-content: space-evenly;
+    border-radius: 5px;
+    align-items: center;
+}
+
+/* contenerdor de cada elemento de logos */
+.social-login-element {
+    /* border: 1px solid green; */
+    width: 11rem;
+    height: 3 rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    /* ahora comenzamos con flebox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    /* border: 1px solid blue; */
+    
+
+}
+
+/* como las imagenes de desbordan, vamos a seleccionarlas */
+
+.social-login-element img{
+    width: 1.875rem;
+    height: 1.875rem;
+    position: relative;
+    top: 0;
+    border-radius: 50px;
+    /* para separar el icono del texto */
+    left: -0.6rem;
+}
+
+
+/* este es para cuando pasa el mouse por los logos de goo y face se ponga la manito */
+
+.social-login-element:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.login-info-container > p {
+    width: 1.875rem;
+    font-size: 1.25em;
+    margin-top: 1.5em;
 }
