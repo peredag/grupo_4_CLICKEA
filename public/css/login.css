@@ -50,10 +50,7 @@ a {
 }
 
 
-.logo {
-	margin: 0;
-	font-size: 20px; 
-} 
+
 
 
 
@@ -261,6 +258,16 @@ label.laboratorio{
 .division-paypal{
 	display: flex;
 }
+}
+.logo-36{
+	display: flex;
+  
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+
+
 }
 
 @media (max-width:1023px){

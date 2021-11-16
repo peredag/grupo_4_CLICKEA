@@ -66,6 +66,16 @@ a {
 	text-align: center;
 	display: block;
 }
+.logo-36{
+	display: flex;
+  
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+
+
+}
 
 .main-nav a {
 	color: var(--white);
@@ -106,6 +116,7 @@ a {
 
 	.main-nav {
 		display: flex;
+		flex-wrap: wrap;
 	}
 	.header {
 		flex-direction: column;
@@ -263,7 +274,3 @@ label.laboratorio{
 
 }
 
-@media (max-width:1023px){
-
-
-}
