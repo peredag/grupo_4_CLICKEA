@@ -30,6 +30,7 @@ body {
 	line-height: 1.6;
 	margin: 0;
 	min-height: 100vh;
+width: 100%;
 }
 ul {
   margin: 0;
@@ -102,7 +103,7 @@ a {
 
 
 /* Media tablet */
-@media (min-width: 767px) {
+@media (min-width:767px) {
 
 	.main-nav {
 		display: flex;
@@ -125,6 +126,22 @@ label.laboratorio{
 .solo-mobile322{
 	display: none;
 }
+.register {
+    width: 340px;
+    height: 680px;
+    border-radius: 60px;
+    background: rgba(14, 14, 14, 0.59);
+    color: ghostwhite;
+    top: 50%;
+	margin-top: 360px;
+	left: 22%;
+   align-items: center;
+    position: relative;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 90px 40px;
+}
+
 }
 
 /* Media Mobile */
@@ -241,7 +258,21 @@ label.laboratorio{
 	  .lista32 a{
 		  color: black;
 	  }
-	  
+	  .register {
+		width: 340px;
+		height: 680px;
+		border-radius: 60px;
+		background: rgba(14, 14, 14, 0.59);
+		color: ghostwhite;
+		top: 50%;
+		margin-top: 390px;
+		left: 50%;
+	   align-items: center;
+	
+		transform: translate(-50%, -50%);
+		box-sizing: border-box;
+		padding: 90px 40px;
+	}
 
 }
 
@@ -290,7 +321,8 @@ body {
     background: rgba(14, 14, 14, 0.59);
     color: ghostwhite;
     top: 50%;
-    left: 50%;
+ 
+   align-items: center;
     position: relative;
     transform: translate(-50%, -50%);
     box-sizing: border-box;

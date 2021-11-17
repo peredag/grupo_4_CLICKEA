@@ -2,10 +2,10 @@
 
 /*MOBILE*/
 
-/*"header"*/
-
-
 /*foto del producto*/
+body{
+    height: 100%;
+}
 html{
     width: 100%;
 }
@@ -457,7 +457,9 @@ margin-top: -28px;
 /* Media tablet */
 @media (min-width:767px){
     
-
+    body{
+        height: 100%;
+    }
     .sumando322{
         text-align: center;
         align-content: center;
