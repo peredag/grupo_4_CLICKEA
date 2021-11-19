@@ -133,8 +133,8 @@ label.laboratorio{
     top: 80%;
 	margin-top: 60px;
     left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    position: center;
+    transform: translate(-0.5%, -0.8%);
     box-sizing: border-box;
     padding: 70px 40px;
 }
@@ -189,10 +189,10 @@ label.laboratorio{
 		color: rgb(255, 255, 255);
 		top: 60%;
 		left: 50%;
-		position: absolute;
-		transform: translate(-50%, -50%);
+		/* position: absolute; */
+		/* transform: translate(-50%, -50%);
 		box-sizing: border-box;
-		padding: 70px 40px;
+		padding: 70px 40px; */
 	}
 	
 	input:checked  ~ ul{
@@ -298,10 +298,10 @@ label.laboratorio{
 body {
     margin: 0;
     padding: 0;
-    background: url(../img/dos12.jpg) no-repeat center top;
+    background: url(../img/uno12.jpg) no-repeat center top;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
-    height: 75vh;
+    height: 150vh;
     
 }
 
@@ -311,10 +311,10 @@ body {
     border-radius: 20px;
     background:rgba(0, 0, 0, 0.494);
     color: rgb(255, 255, 255);
-    top: 60%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+   /*  top: 60%; */
+    /* left: 50%; */
+   /*  position: absolute; */
+    /* transform: translate(-50%, -50%); */
     box-sizing: border-box;
     padding: 70px 40px;
 }
@@ -459,4 +459,51 @@ cursor: pointer;
     width: 1.875rem;
     font-size: 1.25em;
     margin-top: 1.5em;
+}
+
+.footer-36{
+    background-color:rgb(69, 80, 223);
+    display: flex; /* INDISPENSABLE */
+  /*   flex-direction: column; */ /* ALINEA EN COLUMNA */
+    flex-direction: row; /* ALINEA EN FILA */
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.footer-hijo1-36{
+    width: 30%;
+    height: 80px;
+    /* background-color:rgba(148, 0, 211, 0.185); */
+    text-align: center; /* CENTRAR CONTENIDO */
+    margin: 5px;
+    padding: 5px;
+    line-height: 20px; /* INTERLINEADO */
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+@media (max-device-width : 1024px){
+    .footer-36{
+        background-color:rgb(69, 80, 223);
+        display: flex; /* INDISPENSABLE */
+        flex-direction: column; /* ALINEA EN COLUMNA */
+        /* flex-direction: row; */ /* ALINEA EN FILA */
+        width: 100%;
+        height: 100%;
+        /* background-color: blue; */
+    }
+    
+    .footer-hijo1-36{
+        width: 100%;
+        height: 80px;
+        /* background-color:rgba(148, 0, 211, 0.185); */
+        text-align: center; /* CENTRAR CONTENIDO */
+        margin: 5px;
+        padding: 5px;
+        line-height: 20px; /* INTERLINEADO */
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
 }
