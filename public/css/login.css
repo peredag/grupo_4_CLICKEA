@@ -31,7 +31,7 @@ body {
 	font-family:var(--font-roboto);
 	line-height: 1.6;
 	margin: 0;
-	min-height: 100vh;
+	min-height: 100%;
 }
 ul {
   margin: 0;
@@ -130,13 +130,14 @@ label.laboratorio{
     border-radius: 20px;
     background:rgba(0, 0, 0, 0.494);
     color: rgb(255, 255, 255);
-    top: 80%;
+    /* top: 80%; */
 	margin-top: 60px;
-    left: 50%;
+    /* left: 50%; */
     position: center;
-    transform: translate(-0.5%, -0.8%);
+    /* transform: translate(-0.5%, -0.8%); */
     box-sizing: border-box;
     padding: 70px 40px;
+	justify-content: center;
 }
 }
 
@@ -187,12 +188,14 @@ label.laboratorio{
 		border-radius: 20px;
 		background:rgba(0, 0, 0, 0.494);
 		color: rgb(255, 255, 255);
-		top: 60%;
-		left: 50%;
-		/* position: absolute; */
-		/* transform: translate(-50%, -50%);
+		/* top: 80%; */
+		margin-top: 60px;
+		/* left: 50%; */
+		position: center;
+		transform: translate(-28%, -0.8%);
 		box-sizing: border-box;
-		padding: 70px 40px; */
+		padding: 70px 40px;
+		justify-content: center;
 	}
 	
 	input:checked  ~ ul{
@@ -294,6 +297,16 @@ label.laboratorio{
 
 }
 
+@media (min-width: 1025px) {
+	.Login {
+		/* justify-content: space-between; */
+		flex-direction: row;
+		/* justify-content: space-between; */
+		justify-content: center;
+	}
+	
+	}
+
 
 body {
     margin: 0;
@@ -301,22 +314,26 @@ body {
     background: url(../img/uno12.jpg) no-repeat center top;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
-    height: 150vh;
+    height: 100%;
+	align-items: center;
     
 }
 
 .Login {
     width: 360px;
     height: 500px;
+	/* justify-content: center;
     border-radius: 20px;
     background:rgba(0, 0, 0, 0.494);
     color: rgb(255, 255, 255);
-   /*  top: 60%; */
-    /* left: 50%; */
-   /*  position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+   position: center;
     /* transform: translate(-50%, -50%); */
     box-sizing: border-box;
     padding: 70px 40px;
+	margin: 30%;
+	
 }
 
 .Login .icono {
@@ -467,7 +484,7 @@ cursor: pointer;
   /*   flex-direction: column; */ /* ALINEA EN COLUMNA */
     flex-direction: row; /* ALINEA EN FILA */
     width: 100%;
-    height: 100%;
+    height: 20%;
     /* background-color: blue; */
 }
 
@@ -488,9 +505,9 @@ cursor: pointer;
         background-color:rgb(69, 80, 223);
         display: flex; /* INDISPENSABLE */
         flex-direction: column; /* ALINEA EN COLUMNA */
-        /* flex-direction: row; */ /* ALINEA EN FILA */
+        flex-direction: row;  /* ALINEA EN FILA */
         width: 100%;
-        height: 100%;
+        height: 80px;
         /* background-color: blue; */
     }
     

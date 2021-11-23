@@ -392,7 +392,7 @@ font-size: 14px;
 .footer-36{
     background-color:rgb(69, 80, 223);
     display: flex; /* INDISPENSABLE */
-  /*   flex-direction: column; */ /* ALINEA EN COLUMNA */
+  flex-direction: column; /* ALINEA EN COLUMNA */
     flex-direction: row; /* ALINEA EN FILA */
     width: 100%;
     height: 100%;
