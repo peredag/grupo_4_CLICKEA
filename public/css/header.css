@@ -1,52 +1,15 @@
-:root {
-	/* COLORS */
-   /*  --lightblue: #3C91E6; */
-	--lightblue: rgb(69, 80, 223);
-
-	--white: #F6F7EB;
-	--white-2: #BED8EA;
-	--orange: #FF5B0D; /* Colors-Puedo guardar el color en una variable, despues solo lo invoco*/
 
 
 
-    /*Font*/
-    --font-roboto:"Roboto", sans-serif;
-    /*Font sizes*/
-    --paragraph: 12px; /*parrafo o cuerpo del texto*/
-    --title: 24px; /*precios*/
-    --prices: 18px; /*precios*/
-    --discounts-descriptions: 16px;/*descuentos y descripciones*/
-}
- 
 
 
 
-* {
-	box-sizing: border-box;
-}
-
-body {
-	font-family:var(--font-roboto);
-	line-height: 1.6;
-	margin: 0;
-	min-height: 100vh;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
 
-
-a {
+header a {
 	color: var(--white);
-}
-
-a {
 	text-decoration: none;
 }
-
 
 .logo {
 	margin: 0;
