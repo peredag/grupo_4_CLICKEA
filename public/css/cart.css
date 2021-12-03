@@ -2,8 +2,472 @@
 
 /*MOBILE*/
 
+/*---------------------------------- INICIO SEGUNDO INTENTO ----------------------------*/
+
+.titulodelcarrito77{
+    text-align: center;
+    padding: 10px;
+}
+
+.cuerpo-del-carrito{
+    background-color:#F6F7EB; 
+}
+.dondevanlosproductos777{
+    width: 90%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.articulosenelcarrito77{
+    width: 90%;
+    height: 120px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 20px;
+    display:flex;
+   flex-direction:row;
+   flex-wrap: wrap;
+   position: relative;
+   margin: 10px auto;
+
+ 
+}
+.titulodelproducto77{
+   font-size: 15px;
+    left: -5px;
+    order: 0;
+   
+}
+
+.precioporunidad77{
+   
+    top: 20px;
+   margin-left: 15px;
+    order: 2;
+    color: gray;
+
+}
+
+.articulosenelcarrito77 .fa-trash{
+    position: absolute;
+    color: rgb(168, 0, 0);
+    right: 5px;
+    top: 5px;
+   
+   order: 1;
+}
+
+.imagen-container777{
+    order: 3;
+    width: 100px;
+    height: 100px;
+}
+.articulosenelcarrito77 .imagendelarticulo77{
+   
+    height: 50px;
+    width: 95px;
+   display: flex;
+    order: 3;
+}
+
+.product-description777{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width:50%;
+    padding:5px ;
+    height: 100%;
+}
+
+.subtotal777{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+}
+
+/* ----------------------- Contador de cantidad------------------------- */
+.qty{
+    text-align: end;
+    padding-right: 10px;
+}
+
+.qty .count {
+    color: #000;
+    background-color: #F6F7EB;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 2px
+    ;min-width: 35px;
+    text-align: center;
+}
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    }
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+
+.minus:hover{
+    background-color: #717fe0 !important;
+}
+.plus:hover{
+    background-color: #717fe0 !important;
+}
+/*Prevent text selection*/
+
+input{  
+    border: 0;
+    width: 2%;
+}
+nput::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:disabled{
+    background-color:white;
+}
+
+.contenedor-contador777{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+
+}
+
+
+/* -------------------------------------SUBTOTAL-------------- */
+
+
+body .contenedor-subtotal777{
+    width: 90%;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    position: relative;
+}
+
+
+/* -------------------Subtotal---------- */
+
+.contenedor-subtotal777 .palabra-subtotal777 {
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.contenedor-subtotal777 .subtotal-sin-envio777{
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    right: 5px;
+    top: 0;
+    position: absolute;
+}
+
+.contenedor-subtotal777 .envio777{
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: -10px;
+    
+}
+
+.contenedor-subtotal777 .total-del-envio777{
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: -10px;
+    position: absolute;
+    right: 5px;
+    top:50px;
+}
+
+.contenedor-subtotal777 .palabra-total777{
+    color: rgb(87, 87, 87);
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-top: -10px;
+
+}
+
+.contenedor-subtotal777 .total-con-envio777{
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-top: -10px;
+    position: absolute;
+    right: 5px;
+    top:80px;
+}
+
+/* ----------------MEDIOS DE PAGO-------------------------- */
+.contenedor-subtotal777 .contenedor-subtotaldata{
+    width: 100%;
+}
+
+.medios {
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+ .contenedor-subtotal777  .titulo-medios777 {
+     margin-top: 20px;
+     font-size: 16px;
+     color: rgb(58, 58, 58);
+     padding-left: 10px;
+    font-weight: lighter;
+ }
+ .contenedor-subtotal777  .titulo-medios777 i{
+     font-size: 15px;
+ }
+
+ .medios-de-pago777 .division-paypal{
+     display: flex;
+ }
+
+ .medios-de-pago777 .medios .mp img{
+width: 60px;
+border: 1px solid rgb(211, 211, 211);
+border-radius: 10px;
+height: 60px;
+cursor: pointer;
+
+ }
+ .medios-de-pago777 .medios .mp img:hover{
+     border: 1px solid gray;
+     border-radius: 10px;
+ }
+
+ .medios-de-pago777 .medios .mp input{
+     display: none;
+     
+ }
+
+ .medios-de-pago777 .medios .pp img{
+    width: 60px;
+   
+ }
+ .medios-de-pago777 .medios .pp input{
+     display: none;
+ }
+
+ .boton-finalizar-compra{
+     display: flex;
+     position: relative;
+ }
+.boton-finalizar-compra .boton{
+    position: absolute;
+    display: flex;
+    right: 5px;
+    top: 25px;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+    background-color:rgb(146, 243, 0);
+    border-radius: 10px;
+    padding:2px 5px;
+}
+.boton-finalizar-compra .boton i{
+    padding: 5px;
+  
+    font-size: 15¿px;
+}
+
+/*<<<<<<<<<<<< MEDIA QUERIES TABLET >>>>> */
+
+@media (min-width: 767px){
+
+   .articulosenelcarrito77{
+       width: 97%;
+   }
+    .contenedor-subtotal777  .titulo-medios777 {
+        margin-top: 20px;
+        font-size: 16px;
+        color: rgb(58, 58, 58);
+        padding-left: 10px;
+        padding-top: 10px;
+       font-weight: lighter;
+    }
+
+    .dondevanlosproductos777{
+        width: 90%;
+    
+        border: 1px solid gray;
+        border-radius: 5px;
+        display: flex;
+        margin: 0 auto;
+        left: 10px;
+    }
+
+    .boton-finalizar-compra .boton i{
+        padding: 5px;
+      
+        font-size: 15¿px;
+    }
+    body .contenedor-subtotal777{
+        width: 90%;
+        height: 320px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        position: relative;
+    }
+
+
+
+}
+
+
+/*<<<<<<<<<<<< MEDIA QUERIES DESKTOP >>>>> */
+
+@media (min-width: 1023px){
+    
+    .titulodelcarrito77{
+        font-size: 30px;
+    }
+   
+    .dondevanlosproductos777{
+        width: 49%;
+    height: 400px;
+    margin-left: 10px;
+    }
+    body .contenedor-subtotal777{
+        padding: 5px;
+        width: 49%;
+        height: 400px;
+        margin-right: 10px;
+        margin-top: -400px;
+    }
+    
+    .titulodelproducto77{
+        font-size: 20px;
+    }
+
+    .product-description777 {
+        text-align: center;
+        align-items: center;
+        width: 45%;
+    }
+
+    .contenedor-subtotaldata .palabra-subtotal777{
+        font-size: 20px;
+    }
+    .contenedor-subtotaldata .subtotal-sin-envio777{
+        font-size: 20px;
+        padding-right: 5px;
+    }
+    .contenedor-subtotaldata .envio777 {
+        font-size: 18px;
+    }
+    .contenedor-subtotaldata .total-del-envio777{
+        font-size: 18px;
+        padding-top: 10px;
+        padding-right: 5px;
+    }
+    .contenedor-subtotaldata .palabra-total777{
+        font-size: 24px;
+    }
+    .contenedor-subtotaldata .total-con-envio777{
+        padding-top: 20px;
+        font-size: 24px;
+        padding-right: 5px;
+    }
+
+
+
+
+    .contenedor-subtotal777 .titulo-medios777{
+        font-size: 24px;
+    }
+
+    .contenedor-contador777 .qty{
+        margin-bottom: 20px;
+    }
+   .contenedor-contador777 .qty .a{
+        width: 50%;
+        display: flex;
+        margin-left: 30px;
+        margin-bottom: 50px;
+        position: absolute;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------- FIN SEGUNDO INTENTO---------------------------------- */
+
 /*foto del producto*/
-body{
+/* body{
     height: 100%;
 }
 html{
@@ -20,9 +484,9 @@ html{
     border-radius: 5px;
 
 }
-
+ */
 /*Recuadro de descripción de producto*/
-.nombre{
+/* .nombre{
 
     margin-right: 0px;
     margin-top: 10px;
@@ -78,9 +542,9 @@ p.cantidad{
     font-size: 1;
 
 }
-
+ */
 /*Estrellas*/
-
+/* 
 .checked {
   color: orange;
   width: 40px;
@@ -102,8 +566,8 @@ span.fa.fa-star{
     margin-left: 10px;
     width:12px;
   
-}
-/*Medios de pago*/
+} */
+/*Medios de pago*//* 
 .divison322{
     width: 100%;
 }
@@ -153,7 +617,7 @@ display: flex;
 }
 
 
-
+ */
 
 
 /* div.division-mercadopago{
@@ -224,7 +688,7 @@ margin-top: -80px;
 
 } */
 
-.medios-de-pago{
+/* .medios-de-pago{
     margin-top: 20px;
    
 }
@@ -253,9 +717,9 @@ width: 320px;
     width: 100%;
     height: 100%;
     object-fit: contain;
-}
+} */
 /*Carrito Actual */
-
+/* 
 .agrupando.desktop{
     display: flex;
     justify-content: space-evenly;
@@ -424,8 +888,8 @@ margin-top: -28px;
     font-size: 20px;
     border-radius: 5px;
 }
-
-/*Boton comprar*/
+ */
+/*Boton comprar*//* 
 .botondecompra{
     border: 2px solid white;
     width: 100px;
@@ -441,9 +905,9 @@ margin-top: -28px;
 
 }
 
-
+ */
 /*Banner*/
-
+/* 
 .banner1{
     width: 100%;
     padding-top: 20px;
@@ -453,8 +917,8 @@ margin-top: -28px;
     width: 100%;
     margin-top: -3.8px;
 }
-
-/* Media tablet */
+ */
+/* Media tablet *//* 
 @media (min-width:767px){
     
     body{
@@ -589,9 +1053,9 @@ margin-left: 210px;
 
 
 }
+ */
 
-
-/*Media Desktop */
+/*Media Desktop *//* 
 @media (min-width:1023px){
     .miniatura1{
         padding: 5px 0;
@@ -687,7 +1151,7 @@ margin-left: 210px;
             border-radius: 10px;
             border: 1px solid lightgray;
 
-        }
+        } */
 /* 
     .divisiondelosmedios{
         text-align: center;
