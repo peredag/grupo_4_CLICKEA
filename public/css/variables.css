@@ -8,7 +8,7 @@
 	--white-2: #BED8EA;
 	--orange: #FF5B0D; /* Colors-Puedo guardar el color en una variable, despues solo lo invoco*/
     /*Font*/
-    --font-roboto:"Roboto", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
     /*Font sizes*/
     --paragraph: 12px; /*parrafo o cuerpo del texto*/
     --title: 24px; /*precios*/

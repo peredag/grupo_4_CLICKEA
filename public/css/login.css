@@ -212,16 +212,6 @@ label.laboratorio{
 	}
 
 
-body {
-    margin: 0;
-    padding: 0;
-    background: url(../img/uno12.jpg) no-repeat center top;
-    background-size: cover;
-    font-family: 'Poppins', sans-serif;
-    height: 100%;
-	align-items: center;
-    
-}
 
 .Login {
     width: 360px;

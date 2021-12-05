@@ -144,7 +144,6 @@ label.laboratorio{
 	ul.bellagio {
 		opacity: 0;
 		width: 30%;
-		position: absolute;
 		z-index: 1;
 		background-color: antiquewhite;
 		border-radius: 0 0 30px 0;

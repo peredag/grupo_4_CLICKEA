@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/css/style.css">
+     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+     <link rel="stylesheet" href="/css/style.css">
 
     <title>Clickea</title>
     
    
 <!-- <a href="/login">Login</a> -->
 
-<body>
+<body class="cuerpo-del-carrito">
       <!-- :::::::::::::::::INICIO HEADER::::::::::::::::::::::: -->
 
       <header class="header">
@@ -71,6 +75,107 @@
     </header>
     <!-- .......................FIN HEADER.................................... -->
 
+
+
+    
+    <h4 class="titulodelcarrito77"> <i class="fas fa-cart-arrow-down"></i></i> </i> Mi Carrito</h4>
+    <div class="contenedor-padre77">
+        <section class="dondevanlosproductos777">
+            <article class="articulosenelcarrito77">
+            <div class="product-description777"> 
+                <h4 class="titulodelproducto77">Iphone X 256gb</h4>
+                
+                <h6 class="precioporunidad77">$120.000</h6>
+                <div class="imagen-container777">
+                <img class="imagendelarticulo77" src="/img/iphonex.png" alt="iphone">
+                 </div>
+            </div>
+                <i class="fas fa-trash"></i> 
+                
+                <div class="contenedor-contador777"> 
+                    
+                <div class="qty ">
+                    <div class="a"><p class="subtotal777">$120.000</p></div>
+                   <div class="b"> <span class="minus bg-dark">-</span>
+                    <input type="number" class="count" name="qty" value="1">
+                    <span class="plus bg-dark">+</span></div>
+                </div>
+               </div>
+            </article>
+        
+        </section>
+   
+        <section class="contenedor-subtotal777">
+            <article class="contenedor-subtotaldata">
+             <p class="palabra-subtotal777">Subtotal</p>
+             <p class="subtotal-sin-envio777">$120.000</p>
+        
+             <p class="envio777">Envío</p>
+             <p class="total-del-envio777">$1.200</p>
+
+                <p class="palabra-total777">Total</p>
+             <p class="total-con-envio777">$121.200</p>
+
+            
+             
+              <p class="titulo-medios777"> <i class="far fa-credit-card"></i> Seleccione su medio de pago:</p>
+                  
+                <div class="medios-de-pago777">
+                     <section class="medios">
+                         <div class="division-mercadopago">
+                        <article class="mp">
+                         <label for="mercadopago"><img src="/img/logo-mercadopago29.png" alt=""> </label>
+                         <input class="checking" type="checkbox" name="mercadopago" id="mercadopago">
+                        </article>
+                        </div>
+
+                     <div class="division-paypal">
+                        <article class="mp">
+                        <label for="mercadopago"><img src="/img/paypalll.png" alt=""> </label>
+                        <input class="checking" type="checkbox" name="mercadopago" id="mercadopago">
+                         </article>
+                     </div>
+
+                     <div class="division-americanexpress">
+                         <article class="mp">
+                        <label for="mercadopago"><img src="/img/ameri.png" alt=""> </label>
+                        <input class="checking" type="checkbox" name="mercadopago" id="mercadopago">
+                       </article>
+                      </div>
+
+                     <div class="division-visa">
+                         <article class="mp">
+                        <label for="mercadopago"><img src="/img/visa.png" alt=""> </label>
+                        <input class="checking" type="checkbox" name="mercadopago" id="visa">
+                        </article>
+                      </div>
+
+
+                     </section>
+                
+                </div>
+                <div class="boton-finalizar-compra">
+                    <button class="boton" type="submit" name="boton-finalizar-compra">
+                        Finalizar compra   <i class="fas fa-hand-holding-usd"></i></i>
+                    </button>
+                </div>
+
+
+
+
+
+            </article>
+        </section>
+    </div>
+
+
+
+
+
+
+
+    
+<!-- 
     <div class="moverse322">
         <nav class="nombre">
              Iphone X 256gb
@@ -187,7 +292,7 @@
 </div>
 
     </nav>
-</div>
+</div> -->
 <!-- Inicio footer -->
 <footer class="footer-36">
 
@@ -231,6 +336,7 @@
 </footer>
 <!-- Fin footer -->
 
+<script src="/js/cart.js" > </script>
 
 </body>
 
