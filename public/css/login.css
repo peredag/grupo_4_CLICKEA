@@ -1,97 +1,3 @@
-@import url('https://fonts.googleapis.com/css2? family = Source + Sans + Pro: ital, wght @ 0,400; 0,700; 1,600 & display = swap');
-
-:root {
-	/* COLORS */
-   /*  --lightblue: #3C91E6; */
-	--lightblue: rgb(69, 80, 223);
-
-	--white: #F6F7EB;
-	--white-2: #BED8EA;
-	--orange: #FF5B0D; /* Colors-Puedo guardar el color en una variable, despues solo lo invoco*/
-
-
-
-    /*Font*/
-    --font-roboto:"Roboto", sans-serif;
-    /*Font sizes*/
-    --paragraph: 12px; /*parrafo o cuerpo del texto*/
-    --title: 24px; /*precios*/
-    --prices: 18px; /*precios*/
-    --discounts-descriptions: 16px;/*descuentos y descripciones*/
-}
- 
-
-
-
-* {
-	box-sizing: border-box;
-}
-
-body {
-	font-family:var(--font-roboto);
-	line-height: 1.6;
-	margin: 0;
-	min-height: 100%;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-
-
-a {
-	color: var(--white);
-}
-
-a {
-	text-decoration: none;
-}
-
-
-
-
-
-
-.main-nav {
-	margin-top: 5px;
-
-}
-.logo a,
-.main-nav a {
-	padding: 10px 15px;
-	text-transform: uppercase;
-	text-align: center;
-	display: block;
-}
-
-.main-nav a {
-	color: var(--white);
-	font-size: .99em;
-}
-
-.main-nav a:hover {
-	color: #718daa;
-}
-
-
-
-.header {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	justify-content: space-between;
-	padding-top: 20px;
-	border: 1px solid #a2a2a2;
-	background-color: var(--lightblue);
-	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-}
 
 
 /* ================================= 
@@ -103,27 +9,7 @@ a {
 /* Media tablet */
 @media (min-width:767px) {
 
-	.main-nav {
-		display: flex;
-	}
-	.header {
-		flex-direction: column;
-		align-items: center;
-		width: 100%;
-		margin: 0 auto;
-		display: flex;
-		justify-content: space-around;
-	
-	}
-	.header .naranja322{
-		display: none;
-	}
-label.laboratorio{
-	display: none;
-}
-.solo-mobile322{
-	display: none;
-}
+
 .Login {
     width: 360px;
     height: 500px;
@@ -144,43 +30,7 @@ label.laboratorio{
 /* Media Mobile */
 @media (max-width:767px){
 
-	.header {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 100%;
-		margin: 0 auto;
-		max-width: 1150px;
-		
-	}
-
-	header .burger-menu{
-		background-color: var(--light_blue);
-		color:white;
-		width: 15px;
-		padding:7px;
-		border-radius: 5px;
-		text-align: center;
-		padding: 4px;
-		margin:10px auto 0;
-		border: 1px solid lightgray;
-		width: 30px;
-		height: 32px;
-		margin-bottom: 10px;
-		
-		/*top right bottom left */
 	
-	}
-
-	.main-nav{
-		display: none;
-	}
-
-	.header .burger-menu:hover {
-		color: lightgray;
-	}
-	
-
 
 	.Login {
 		width: 360px;
@@ -269,28 +119,6 @@ label.laboratorio{
 /*   Media Desktop*/
 
 @media (min-width: 1025px) {
-	.header {
-		justify-content: space-between;
-		flex-direction: row;
-		justify-content: space-between;
-	}
-	.header .naranja322{
-		display: block;
-	}
-.division-paypal{
-	display: flex;
-}
-}
-.logo-36{
-	display: flex;
-  
-	border-radius: 50px;
-	width: 100px;
-	height: 100px;
-	margin-bottom: 20px;
-
-
-}
 
 @media (max-width:1023px){
 
@@ -308,7 +136,7 @@ label.laboratorio{
 	}
 
 
-body {
+body.loginBody {
     margin: 0;
     padding: 0;
     background: url(../img/uno12.jpg) no-repeat center top;
@@ -523,4 +351,5 @@ cursor: pointer;
         font-size: 15px;
     }
 
+}
 }
