@@ -18,9 +18,61 @@
 <!-- <a href="/login">Login</a> -->
 
 <body class="cuerpo-del-carrito">
-      <!-- :::::::::::::::::INICIO HEADER::::::::::::::::::::::: -->
-
+       <!-- :::::::::::::::::INICIO HEADER::::::::::::::::::::::: -->
+     <nav class="navbar navbar-expand-lg navbar-dark header">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><div class="logo"><a href="/"><img class="logo" src="\img\2.png"></a> </div></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ElectroHogar</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tecnología
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Celulares</a></li>
+                  <li><a class="dropdown-item" href="#">Tablets</a></li>
+                  <li><a class="dropdown-item" href="#">Drones</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Computacion
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Pc</a></li>
+                  <li><a class="dropdown-item" href="#">Notebooks</a></li>
+                  <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-custom" type="submit">Buscar</button>
+            </form>
+            <ul class=" mb-2 mb-lg-0 loginCart-buttons">
+                <li >
+                    <a href="/login"><i class="fas fa-user-circle"></i></a> 
+                </li>
     
+                <li >
+                    <a  href="/productCart"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+
     <!-- .......................FIN HEADER.................................... -->
 
 
@@ -125,48 +177,48 @@
     
 </body>
 
-<!-- Inicio footer -->
-<footer class="footer-36">
+    <!-- Inicio footer -->
+    <footer class="footer-36">
 
-    <div class="padre-36">
-        <div class="footer-hijo1-36">
-            <div>
+        <div class="padre-36">
+            <div class="footer-hijo1-36 sinborde">
                 <div>
-                    <h2><a href="">Información</a></h2>
-                    <p>Nosotros</p>
-                    <p>Asesoramiento</p>
+                    <div>
+                        <h2><a href="">Información</a></h2>
+                        <p>Nosotros</p>
+                        <p>Asesoramiento</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- ------------ -->
-    <div class="padre-36">
-        <div class="footer-hijo1-36">
-            <div>
+        <!-- ------------ -->
+        <div class="padre-36">
+            <div class="footer-hijo1-36 ">
                 <div>
-                    <h2><a href="">Sucursales</a></h2>
-                    <p>Av. San Martín 123</p>
-                    <p>Av. Colón 369</p>
+                    <div>
+                        <h2><a href="">Sucursales</a></h2>
+                        <p>Av. San Martín 123</p>
+                        <p>Av. Colón 369</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--  -->
-    <div class="padre-36">
-        <div class="footer-hijo1-36">
-            <div>
+        <!--  -->
+        <div class="padre-36">
+            <div class="footer-hijo1-36">
                 <div>
-                    <h2> <a href="">Contacto</a> </h2>
-                    <p>te:351-369-963</p>
-                    <p>clickea@mail.com.ar</p>
-                    <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i> </a> <a href="https://www.facebook.com/"> <span> <i class="fab fa-facebook"> </i>  </span> </a> <a href="https://www.instagram.com/"><i class="fab fa-instagram"> </i></a>
+                    <div>
+                        <h2> <a href="">Contacto</a> </h2>
+                        <p>te:351-369-963</p>
+                        <p>clickea@mail.com.ar</p>
+                        <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i> </a> <a href="https://www.facebook.com/"> <span> <i class="fab fa-facebook"> </i>  </span> </a> <a href="https://www.instagram.com/"><i class="fab fa-instagram"> </i></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-</footer>
-<!-- Fin footer -->
+    
+    </footer>
+    <!-- Fin footer -->
 
 <script src="/js/cart.js" > </script>
 
