@@ -21,6 +21,33 @@
 
 
 
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family:var(--font-roboto);
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+width: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+a {
+	color: var(--white);
+}
+
+a {
+	text-decoration: none;
+}
+
 
 .logo {
 	margin: 0;
@@ -277,6 +304,18 @@ label.laboratorio{
     --color-light : white;
     --color-gray: rgb(189, 177, 130);
 } */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/ciudad-borrosa-ciudad-personas.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+	/* transform: translate(-50%, -50%); */
+    box-sizing: border-box;
+    
+}
 
 /* .register {
     width: 340px;
