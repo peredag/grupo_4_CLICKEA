@@ -137,16 +137,16 @@
 }
 /*Prevent text selection*/
 
-input{  
+.cuerpo-del-carrito input{  
     border: 0;
     width: 2%;
 }
-nput::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+.cuerpo-del-carrito input::-webkit-outer-spin-button,
+.cuerpo-del-carrito input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-input:disabled{
+.cuerpo-del-carrito input:disabled{
     background-color:white;
 }
 
