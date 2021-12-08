@@ -76,18 +76,57 @@
 
 .span36{
     margin: 5px;
+    text-align: center;
 }
+
+
+/* .elija-color36{
+    color:red;
+    text-align: center;
+   
+    font-size: 20px;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    
+} */
+
+.input-select36{
+    color:red;
+    text-align: center;
+   
+    font-size: 14px;
+    border-radius: 10px;
+    height: 30px;
+   
+    
+}
+
 .select36{
     color:blue;
+    text-align: center;
+   
+    font-size: 20px;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    
 }
 .botones-36{
     /* background-color: royalblue; */
     width: 80%;
-    height: 5%;
+    height: 10%;
   
 }
 
 .boton-agregar-36{
+   /*  background-color:red;
+    font-size: 10px;
+    border-radius: 10px;
+    height: 10%;
+    margin: 5px;
+    padding: 5px; */
+
     background-color:red;
     font-size: 10x;
     border-radius: 10px;
@@ -96,7 +135,7 @@
     padding: 5px;
   
     
-}
+} 
 
 .boton-agregar-36-verde{
     background-color:seagreen;
@@ -193,9 +232,29 @@
         border-radius: 10px;
     }
 
-    .select-36{
+ /*    .select-36{
         text-align: left;
         padding: 20px;
+    } */
+
+    .select36{
+        color:red;
+    
+        font-size: 20px;
+        border-radius: 10px;
+        height: 40px;
+        width: 40px;
+        
+    }
+
+    .input-select36{
+        color:black;
+        text-align: center;
+       
+        font-size: 25px;
+        border-radius: 10px;
+        height: 35px;
+        
     }
     
     .botones-36{
