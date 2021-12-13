@@ -17,16 +17,16 @@ app.set("view engine", "ejs"); //setea el templat engine
 app.set("views", path.join(__dirname, "views")); //indica la ubicación
 
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "views/home.html"));
+  res.sendFile(path.join(__dirname, "views/home.ejs"));
 });
 
 
 app.get("/register", function (req, res) {
-  res.sendFile(path.join(__dirname, "views/register.html"));
+  res.sendFile(path.join(__dirname, "views/register.ejs"));
 });
 
 app.get("/login", function (req, res) {
-  res.sendFile(path.join(__dirname, "views/login.html"));
+  res.sendFile(path.join(__dirname, "views/login.ejs"));
 });
 
 app.listen(PORT, () =>
