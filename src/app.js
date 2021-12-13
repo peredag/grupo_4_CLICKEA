@@ -13,6 +13,7 @@ app.use('/productos', rutasProductos);
 
 app.use(express.static(path.join(__dirname, "../public")));
 
+
 app.listen(PORT, () =>
   console.log(
     `Servidor levantado en el puerto ${PORT} http://localhost:${PORT}`
