@@ -1,15 +1,20 @@
 const { response } = require("express");
 let express = require("express");
-let app = express();
+const app = express();
 const PORT = 3000;
 let path = require("path");
 
-let rutasProductos = require('./routes/productos.js');
+let productCart = require('./routes/productCart');
+let home = require('./routes/main');
+let login = require("./routes/login");
+let register = require("./routes/register");
+let productDetail = require("./routes/productDetail");
 
-app.use('/productos', rutasProductos);
-
-
-
+app.use('/productCart', productCart);
+app.use('/', home);
+app.use('/login', login);
+app.use('/register', register);
+app.use('/productDetail', productDetail);
 
 app.use(express.static(path.join(__dirname, "../public")));
 
